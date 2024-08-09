@@ -13,6 +13,81 @@
   </head>
 
   <body class="page-body">
+    <div class="wrapper wrapper--main">
+      <header class="main-header" data-test="header">
+        <div class="container">
+          <nav class="main-nav">
+            <div class="main-nav__menu">
+              <button class="main-nav__toggle">
+                <span class="visually-hidden">Развернуть меню</span>
+                <svg role="img"  viewBox="0 0 22 22" width="22" height="22" focusable="false">
+                  <use href="/__spritemap#sprite-menu"></use>
+                </svg>
+              </button>
+              <ul class="main-nav__list nav-list main-nav__nojs">
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#">Туры</a>
+                </li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#">Обучение</a>
+                </li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#">О нас</a>
+                </li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#">Отзывы</a>
+                </li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#">Фотографии</a>
+                </li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <div class="main-nav__contact">
+              <a class="main-nav__logo-link" href="index.html">
+                <span class="visually-hidden">Lifetour: Организация походов в горы.</span>
+                <img src="/__spritemap#sprite-logotype-text" width="142" height="42" alt="Lifetour: Организация походов в горы.">
+                <!--svg role="img"  viewBox="0 0 142 42" width="142" height="42" focusable="false">
+                  <use href="/__spritemap#sprite-logotype-text"></use>
+                </!--svg-->
+              </a>
+              <a class="main-nav__tel" href="tel:88000000000">8 800 000-00-00</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="hero" data-test="hero">
+        <div class="hero__container container">
+          <h1 class="visually-hidden">Lifetour: Организация походов в горы.</h1>
+          <div class="hero__wrapper swiper">
+            <ol class="hero-list slider swiper-wrapper" pagination="true">
+              <li class="hero-list__item hero-card swiper-slide">
+                <h2 class="hero-card__title title">Захватывающие вершины Кавказа</h2>
+                <p class="hero-card__description">В сопровождении опытных гидов вы пройдёте через потрясающие ландшафты и совершите восходна на вершину горы Чегет.</p>
+                <a class="hero-card__button button">Смотреть тур</a>
+              </li>
+              <li class="hero-list__item hero-card swiper-slide">
+                <h2 class="hero-card__title title">Невероятная природа Камчатки</h2>
+                <p class="hero-card__description">Незабываемое приключение, во время которого вы отправитесь в путешествие по одному из самых нетронутых уголков дикой природы в мире.</p>
+                <a class="hero-card__button button">Смотреть тур</a>
+              </li>
+              <li>
+                <h2 class="hero-card__title title">Магические пейзажи Алтайского Края</h2>
+                <p class="hero-card__description">Алтайский трекинг-тур - это захватывающее приключение с посещением магических и захватывающих дух ландшафтов Алтайских гор.</p>
+                <a class="hero-card__button button">Смотреть тур</a>
+              </li>
+            </ol>
+            <ol class="hero-list swiper-pagination">
+              <li class="swiper-pagination-bullet"><span class="visually-hidden">Первый слайд</span></li>
+              <li class="swiper-pagination-bullet"><span class="visually-hidden">Второй слайд</span></li>
+              <li class="swiper-pagination-bullet"><span class="visually-hidden">Третий слайд</span></li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- пример использования спрайта -->
     <img src="/__spritemap#sprite-logo-view" alt="Это спрайт">
     <svg>
