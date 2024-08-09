@@ -1,0 +1,36 @@
+// Viewports
+$vp-320: 320px;
+$vp-375: 375px;
+$vp-768: 768px;
+$vp-1024: 1024px;
+$vp-1280: 1280px;
+$vp-1366: 1366px;
+$vp-1440: 1440px;
+$vp-1920: 1920px;
+
+// Retina
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
+
+// Gradient
+$gradient: linear-gradient(90deg, rgba(0,0,0,0.33) 0%, rgba(255,255,255,0) 100%);//на большом слайдере
+$gradient-card-tour: linear-gradient(0deg, rgba(0,0,0,0.33) 33%, rgba(0,0,0,0.16) 62%, rgba(255,255,255,0) 100%);
+
+// Colors
+$color-default-black: #000000;
+$color-default-white: #ffffff;
+$color-transparent: rgba(255, 255, 255, 0);
+$color-main: #2D383F;
+$color-blue: #0266C1;
+
+
+// Fonts
+$font-montserrat: "Montserrat-Regular", "Arial", sans-serif;
+$fz-default: 16px;
+$lh-default: 24px;
+
+// Animation
+$tf-default: ease;
+$trans-default: 0.3s $tf-default;
+$trans-modal: 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+$trans-600: 0.6s $tf-default;
