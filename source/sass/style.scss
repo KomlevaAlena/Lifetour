@@ -2,7 +2,10 @@
 // ---------------------------------
 
 @import "vendor/normalize";
+@import "vendor/swiper";
 
 // Global
-@import "global/fonts";
 @import "mixins";
+@import "global/utils";
+@import "global/reboot";
+@import "global/fonts/fonts";
