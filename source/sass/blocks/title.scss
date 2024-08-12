@@ -1,8 +1,8 @@
-.title h1{
+h1.title {
   margin: 0;
   font-family: $font-montserrat;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 30px;
   //letter-spacing: 3.2px;
 
@@ -14,5 +14,41 @@
   @include vp-1440 {
     font-size: 77px;
     line-height: 77px;
+  }
+}
+
+h2.title {
+  margin: 0;
+  font-family: $font-montserrat;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 26px;
+
+  @include vp-768 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  @include vp-1440 {
+    font-size: 55px;
+    line-height: 55px;
+  }
+}
+
+h3.title {
+  margin: 0;
+  font-family: $font-montserrat;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 22px;
+
+  @include vp-768 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  @include vp-1440 {
+    font-size: 35px;
+    line-height: 100px;
   }
 }
