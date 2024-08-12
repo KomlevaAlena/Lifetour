@@ -1,0 +1,21 @@
+.main-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 15px 0;
+  margin: 0 auto;
+  list-style-type: none;
+  color: $color-default-white;
+  text-align: start;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.nav-list__link {
+  display: block;
+  font-family: $font-montserrat-bold;
+  color: $color-default-white;
+  text-transform: uppercase;
+  padding: 11px 0;
+}

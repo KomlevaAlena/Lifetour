@@ -1,0 +1,24 @@
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 290px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.main-nav__toggle {
+  display: block;
+  border: none;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  color: $color-default-white;
+  fill: currentColor;
+
+  svg {
+    width: 26px;
+    height: 26px;
+    color: $color-default-white;
+  }
+}
