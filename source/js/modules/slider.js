@@ -47,7 +47,7 @@ export const sliderHero = new Swiper('.hero__wrapper', {
 
 export const sliderTours = new Swiper('.tours__wrapper', {
   direction: 'horizontal',
-  loop: true,
+  loop: false,
   navigation: {
     nextEl: '.tours__button--prev',
     prevEl: '.tours__button--next',
@@ -65,6 +65,30 @@ export const sliderTours = new Swiper('.tours__wrapper', {
     1440: {
       slidesPerView: 3,
       spaceBetween: 30,
+    },
+  },
+});
+
+export const sliderTraining = new Swiper('.training__wrapper--slider', {
+  direction: 'horizontal',
+  loop: false,
+  navigation: {
+    nextEl: '.training__button--prev',
+    prevEl: '.training__button--next',
+  },
+  modules: [Navigation, Pagination],
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1440: {
+      slidesPerView: 4,
+      spaceBetween: 20,
     },
   },
 });
