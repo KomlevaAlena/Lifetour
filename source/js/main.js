@@ -11,6 +11,8 @@ import {iosVhFix} from './utils/ios-vh-fix';
 import {sliderHero} from './modules/slider';
 import {sliderTours} from './modules/slider';
 import {sliderTraining} from './modules/slider';
+import {sliderReviews} from './modules/slider';
+import {sliderAdvantages} from './modules/slider';
 // import {slider2} from './modules/slider';
 // import {initVideo} from './modules/video';
 
@@ -26,6 +28,9 @@ window.addEventListener('DOMContentLoaded', () => {
     sliderHero.init();
     sliderTours.init();
     sliderTraining.init();
+    sliderReviews.init();
+    window.addEventListener('resize', sliderAdvantages);
+    //sliderAdvantages();
     // slider2.init();
     // initTabs();
     // initAccordions();
