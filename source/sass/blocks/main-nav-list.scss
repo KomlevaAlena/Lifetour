@@ -10,6 +10,14 @@
   text-align: start;
   font-size: 14px;
   line-height: 14px;
+
+  &:first-child {
+    padding-top: 4px;
+  }
+
+  &:last-child {
+    padding-bottom: 4px;
+  }
 }
 
 .nav-list__link {
@@ -18,4 +26,6 @@
   color: $color-default-white;
   text-transform: uppercase;
   padding: 11px 0;
+  font-family: $font-montserrat;
+  font-weight: 600;
 }
