@@ -5,10 +5,6 @@ import 'swiper/css';
 export const sliderHero = new Swiper('.hero__wrapper', {
   direction: 'horizontal',
   loop: true,
-  // navigation: {
-  //   nextEl: '.judges__button--prev',
-  //   prevEl: '.judges__button--next',
-  // },
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,

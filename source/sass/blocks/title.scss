@@ -17,9 +17,9 @@ h1.title {
   }
 }
 
-h2.title {
+.title {
   margin: 0;
-  font-family: $font-montserrat;
+  font-family: $font-montserrat-bold;
   font-size: 26px;
   font-weight: 800;
   line-height: 26px;
@@ -35,20 +35,20 @@ h2.title {
   }
 }
 
-h3.title {
-  margin: 0;
-  font-family: $font-montserrat;
-  font-size: 22px;
-  font-weight: 800;
-  line-height: 22px;
+// h3.title {
+//   margin: 0;
+//   font-family: $font-montserrat;
+//   font-size: 22px;
+//   font-weight: 800;
+//   line-height: 22px;
 
-  @include vp-768 {
-    font-size: 25px;
-    line-height: 25px;
-  }
+//   @include vp-768 {
+//     font-size: 25px;
+//     line-height: 25px;
+//   }
 
-  @include vp-1440 {
-    font-size: 35px;
-    line-height: 100px;
-  }
-}
+//   @include vp-1440 {
+//     font-size: 35px;
+//     line-height: 100px;
+//   }
+// }

@@ -1,0 +1,56 @@
+.hero-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  margin: 0 auto;
+
+  picture {
+    display: block;
+    width: 320px;
+    height: auto;
+  }
+}
+
+.hero-card__wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  top: 0;
+}
+
+.hero-card__title {
+  font-family: $font-montserrat-bold;
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 800px;
+  text-align: center;
+  color: $color-default-white;
+  display: block;
+  width: 290px;
+  margin: 0 auto;
+  padding: 145px 0 15px 0;
+}
+
+.hero-card__description {
+  text-align: center;
+  color: $color-default-white;
+  font-size: 15px;
+  line-height: 20px;
+  display: block;
+  width: 290px;
+  margin: 0 auto;
+  padding: 0 0 60px 0;
+}
+
+.hero-card__button {
+  width: 180px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
