@@ -13,6 +13,7 @@ import {sliderTours} from './modules/slider';
 import {sliderTraining} from './modules/slider';
 import {sliderReviews} from './modules/slider';
 import {sliderAdvantages} from './modules/slider';
+import {sliderGallery} from './modules/slider';
 // import {slider2} from './modules/slider';
 // import {initVideo} from './modules/video';
 
@@ -30,6 +31,7 @@ window.addEventListener('DOMContentLoaded', () => {
     sliderTraining.init();
     sliderReviews.init();
     window.addEventListener('resize', sliderAdvantages);
+    window.addEventListener('resize', sliderGallery);
     //sliderAdvantages();
     // slider2.init();
     // initTabs();

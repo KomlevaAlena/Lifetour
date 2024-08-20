@@ -155,3 +155,46 @@ export const sliderAdvantages = function sliderAdvantages() {
     swiperStyle.classList.remove('swiper-on');
   }
 };
+
+export const sliderGallery = function sliderGallery() {
+  const swiperDom = document.querySelector('.gallery__wrapper');
+  const swiperStyle = document.querySelector('.page-body');
+  if(document.body.clientWidth <= 1440) {
+    swiperDom.classList.add('swiper');
+    swiperDom.querySelector('.gallery__list').classList.add('swiper-wrapper');
+    swiperDom.querySelectorAll('.gallery__item').forEach((item) => {
+      item.classList.add('swiper-slide');
+    });
+    new Swiper('.gallery__wrapper', {
+      direction: 'horizontal',
+      loop: true,
+      navigation: {
+        nextEl: '.gallery__button--prev',
+        prevEl: '.gallery__button--next',
+      },
+      modules: [Navigation, Pagination],
+      breakpoints: {
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 5,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 5,
+        },
+      },
+    });
+    swiperStyle.classList.add('swiper-on');
+    swiperStyle.classList.remove('swiper-off');
+  } else {
+    const swiper = new Swiper('.gallery__wrapper', {});
+    swiper.destroy(true,true);
+    swiperDom.querySelector('.gallery__list').classList.remove('swiper-wrapper');
+    swiperDom.classList.remove('swiper');
+    swiperDom.querySelectorAll('.gallery__item').forEach((item) => {
+      item.classList.remove('swiper-slide');
+    });
+    swiperStyle.classList.add('swiper-off');
+    swiperStyle.classList.remove('swiper-on');
+  }
+};
