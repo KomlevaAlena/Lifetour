@@ -14,6 +14,7 @@ import {sliderTraining} from './modules/slider';
 import {sliderReviews} from './modules/slider';
 import {sliderAdvantages} from './modules/slider';
 import {sliderGallery} from './modules/slider';
+import {mobileMenu} from './modules/main-menu';
 // import {slider2} from './modules/slider';
 // import {initVideo} from './modules/video';
 
@@ -32,6 +33,7 @@ window.addEventListener('DOMContentLoaded', () => {
     sliderReviews.init();
     window.addEventListener('resize', sliderAdvantages);
     window.addEventListener('resize', sliderGallery);
+    mobileMenu();
     //sliderAdvantages();
     // slider2.init();
     // initTabs();
