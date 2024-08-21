@@ -11,6 +11,8 @@
     <link rel="preload" href="fonts/Montserrat-Regular.woff" as="font" type="font/woff" crossorigin="anonymous">
     <link rel="preload" href="fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="fonts/Montserrat-Bold.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Montserrat-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Montserrat-Light.woff" as="font" type="font/woff" crossorigin="anonymous">
     <link rel="stylesheet" href="sass/style.scss">
   </head>
 
@@ -153,9 +155,21 @@
                   </ul>
                   <h3 class="tours-card__title title">Путешествие вокруг Эльбруса</h3>
                   <ul class="tours-card__list">
-                    <li class="tours-card__item"><span>Сложность:</span></li>
-                    <li class="tours-card__item"><span>Даты набора:</span><span>12.06–19.06</span></li>
-                    <li class="tours-card__item"><span>Группа:</span><span>до 15 чел.</span></li>
+                    <li class="tours-card__item">
+                      <span class="tours-card__category">Сложность:</span>
+                      <svg role="img"  viewBox="0 0 84 16" width="84" height="16" focusable="false">
+                        <use href="/__spritemap#sprite-stars-elbrus"></use>
+                      </svg>
+                      <span class="visually-hidden">4</span>
+                    </li>
+                    <li class="tours-card__item">
+                      <span class="tours-card__category">Даты набора:</span>
+                      <span class="tours-card__category--description">12.06–19.06</span>
+                    </li>
+                    <li class="tours-card__item">
+                      <span class="tours-card__category">Группа:</span>
+                      <span class="tours-card__category--description">до 15 чел.</span>
+                    </li>
                   </ul>
                 </div>
                 <picture>
@@ -188,14 +202,14 @@
                   </ul>
                   <h3 class="tours-card__title title">Путь к подножию Белухи</h3>
                   <ul class="tours-card__list">
-                    <li class="tours-card__item"><span>Сложность:</span></li>
-                    <li class="tours-card__item"><span>Даты набора:</span><span>14.06–23.06</span></li>
-                    <li class="tours-card__item"><span>Группа:</span><span>до 25 чел.</span></li>
+                    <li class="tours-card__item"><span class="tours-card__category">Сложность:</span></li>
+                    <li class="tours-card__item"><span class="tours-card__category">Даты набора:</span><span class="tours-card__category--description">14.06–23.06</span></li>
+                    <li class="tours-card__item"><span class="tours-card__category">Группа:</span><span class="tours-card__category--description">до 25 чел.</span></li>
                   </ul>
                 </div>
                 <picture>
-                  <source media="(min-width: 1440px)" srcset="img/elbrus-1x.webp 1x, img/elbrus-2x.webp 2x" width="380" height="416" type="image/webp">
-                  <source media="(min-width: 768px)" srcset="img/elbrus-tablet-1x.webp 1x, img/elbrus-tablet-2x.webp 2x" width="330" height="416" type="image/webp">
+                  <source media="(min-width: 1440px)" srcset="img/beluha-1x.webp 1x, img/beluha-2x.webp 2x" width="380" height="416" type="image/webp">
+                  <source media="(min-width: 768px)" srcset="img/beluha-tablet-1x.webp 1x, img/beluha-tablet-2x.webp 2x" width="330" height="416" type="image/webp">
                   <img src="img/beluha-mobile-1x.webp" srcset="img/beluha-mobile-2x.webp" width="290" height="416" alt="Белуха">
                 </picture>
               </li>
@@ -223,14 +237,14 @@
                 </ul>
                 <h3 class="tours-card__title title">Через Фишт к Чёрному морю и обратно</h3>
                 <ul class="tours-card__list">
-                  <li class="tours-card__item"><span>Сложность:</span></li>
-                  <li class="tours-card__item"><span>Даты набора:</span><span>15.07–19.07</span></li>
-                  <li class="tours-card__item"><span>Группа:</span><span>до 22 чел.</span></li>
+                  <li class="tours-card__item"><span class="tours-card__category">Сложность:</span></li>
+                  <li class="tours-card__item"><span class="tours-card__category">Даты набора:</span><span class="tours-card__category--description">15.07–19.07</span></li>
+                  <li class="tours-card__item"><span class="tours-card__category">Группа:</span><span class="tours-card__category--description">до 22 чел.</span></li>
                 </ul>
               </div>
               <picture>
-                <source media="(min-width: 1440px)" srcset="img/elbrus-1x.webp 1x, img/elbrus-2x.webp 2x" width="380" height="416" type="image/webp">
-                <source media="(min-width: 768px)" srcset="img/elbrus-tablet-1x.webp 1x, img/elbrus-tablet-2x.webp 2x" width="330" height="416" type="image/webp">
+                <source media="(min-width: 1440px)" srcset="img/fisht-1x.webp 1x, img/fisht-2x.webp 2x" width="380" height="416" type="image/webp">
+                <source media="(min-width: 768px)" srcset="img/fisht-tablet-1x.webp 1x, img/fisht-tablet-2x.webp 2x" width="330" height="416" type="image/webp">
                 <img src="img/fisht-mobile-1x.webp" srcset="img/fisht-mobile-2x.webp" width="290" height="416" alt="Фишт">
               </picture>
               </li>
@@ -258,22 +272,22 @@
                   </ul>
                   <h3 class="tours-card__title title">Восхождение Манарага</h3>
                   <ul class="tours-card__list">
-                    <li class="tours-card__item"><span>Сложность:</span></li>
-                    <li class="tours-card__item"><span>Даты набора:</span><span>12.07–19.07</span></li>
-                    <li class="tours-card__item"><span>Группа:</span><span>до 7 чел.</span></li>
+                    <li class="tours-card__item"><span class="tours-card__category">Сложность:</span></li>
+                    <li class="tours-card__item"><span class="tours-card__category">Даты набора:</span><span class="tours-card__category--description">12.07–19.07</span></li>
+                    <li class="tours-card__item"><span class="tours-card__category">Группа:</span><span class="tours-card__category--description">до 7 чел.</span></li>
                   </ul>
                 </div>
                 <picture>
-                  <source media="(min-width: 1440px)" srcset="img/elbrus-1x.webp 1x, img/elbrus-2x.webp 2x" width="380" height="416" type="image/webp">
-                  <source media="(min-width: 768px)" srcset="img/elbrus-tablet-1x.webp 1x, img/elbrus-tablet-2x.webp 2x" width="330" height="416" type="image/webp">
+                  <source media="(min-width: 1440px)" srcset="img/manaraga-1x.webp 1x, img/manaraga-2x.webp 2x" width="380" height="416" type="image/webp">
+                  <source media="(min-width: 768px)" srcset="img/manaraga-tablet-1x.webp 1x, img/manaraga-tablet-2x.webp 2x" width="330" height="416" type="image/webp">
                   <img src="img/manaraga-mobile-1x.webp" srcset="img/manaraga-mobile-2x.webp" width="290" height="416" alt="Манарага">
                 </picture>
               </li>
             </ol>
-            <a class="tours__button button">
+            <a class="tours__button--all button">
               <span>Показать все туры</span>
               <svg role="img"  viewBox="0 0 9 14" width="9" height="14" focusable="false">
-                <use href="/__spritemap#sprite-right-arrow"></use>
+                <use href="/__spritemap#sprite-tours-right-arrow"></use>
               </svg>
             </a>
           </div>
@@ -299,89 +313,89 @@
                 </button>
                 <ol class="training__list slider swiper-wrapper">
                   <li class="training__item training-card swiper-slide">
-                    <div class="training-card__image">
-                      <picture>
-                        <source media="(max-width: 1365px)" srcset="img/nadejda-kolisnichenko-1x.webp 1x, img/nadejda-kolisnichenko-2x.webp 2x" width="255" height="200" type="image/webp">
-                        <source media="(max-width: 767px)" srcset="img/nadejda-kolisnichenko-tablet-1x.webp 1x, img/nadejda-kolisnichenko-tablet-2x.webp 2x" width="183" height="200" type="image/webp">
-                        <img src="img/nadejda-kolisnichenko-mobile-1x.webp" srcset="img/nadejda-kolisnichenko-mobile-2x.webp" width="260" height="200" alt="Надежда Колесниченко">
-                      </picture>
+                    <picture>
+                      <source media="(max-width: 1365px)" srcset="img/nadejda-kolisnichenko-1x.webp 1x, img/nadejda-kolisnichenko-2x.webp 2x" width="255" height="200" type="image/webp">
+                      <source media="(max-width: 767px)" srcset="img/nadejda-kolisnichenko-tablet-1x.webp 1x, img/nadejda-kolisnichenko-tablet-2x.webp 2x" width="183" height="200" type="image/webp">
+                      <img src="img/nadejda-kolisnichenko-mobile-1x.webp" srcset="img/nadejda-kolisnichenko-mobile-2x.webp" width="260" height="200" alt="Надежда Колесниченко">
+                    </picture>
+                    <div class="training-card__name">
                       <h4 class="training-card__title title">Надежда Колесниченко</h4>
                       <a class="training-card__link" href="#">
                         <span class="visually-hidden">Профиль в Контакте</span>
-                        <svg role="img"  viewBox="0 0 16 19" width="16" height="19" focusable="false">
-                          <use href="/__spritemap#sprite-vk-social"></use>
+                        <svg role="img"  viewBox="0 0 14 8" width="14" height="8" focusable="false">
+                          <use href="/__spritemap#sprite-vk-aducation"></use>
                         </svg>
                       </a>
-                      <p class="training-card__description">Участники говорят, что Надежда ответственная, приятная в общении, и в поездках с ней чувствуешь себя спокойно и уверенно.</p>
                     </div>
+                    <p class="training-card__description">Участники говорят, что Надежда ответственная, приятная в общении, и в поездках с ней чувствуешь себя спокойно и уверенно.</p>
                   </li>
                   <li class="training__item training-card swiper-slide">
-                    <div class="training-card__image">
-                      <picture>
-                        <source media="(min-width: 1440px)" srcset="img/svetlana-afinogenova-1x.webp 1x, img/svetlana-afinogenova-2x.webp 2x" width="255" height="200" type="image/webp">
-                        <source media="(min-width: 768px)" srcset="img/svetlana-afinogenova-tablet-1x.webp 1x, img/svetlana-afinogenova-tablet-2x.webp 2x" width="183" height="200" type="image/webp">
-                        <img src="img/svetlana-afinogenova-mobile-1x.webp" srcset="img/svetlana-afinogenova-mobile-2x.webp" width="260" height="200" alt="Светлана Афиногенова">
-                      </picture>
+                    <picture>
+                      <source media="(min-width: 1440px)" srcset="img/svetlana-afinogenova-1x.webp 1x, img/svetlana-afinogenova-2x.webp 2x" width="255" height="200" type="image/webp">
+                      <source media="(min-width: 768px)" srcset="img/svetlana-afinogenova-tablet-1x.webp 1x, img/svetlana-afinogenova-tablet-2x.webp 2x" width="183" height="200" type="image/webp">
+                      <img src="img/svetlana-afinogenova-mobile-1x.webp" srcset="img/svetlana-afinogenova-mobile-2x.webp" width="260" height="200" alt="Светлана Афиногенова">
+                    </picture>
+                    <div class="training-card__name">
                       <h4 class="training-card__title title">Светлана Афиногенова</h4>
                       <a class="training-card__link" href="#">
                         <span class="visually-hidden">Профиль в Контакте</span>
-                        <svg role="img"  viewBox="0 0 16 19" width="16" height="19" focusable="false">
-                          <use href="/__spritemap#sprite-vk-social"></use>
+                        <svg role="img"  viewBox="0 0 14 8" focusable="false">
+                          <use href="/__spritemap#sprite-vk-aducation"></use>
                         </svg>
                       </a>
-                      <p class="training-card__description">Видеть мир вокруг, познавать его опасности, находить друг друга, становиться ближе, чувствовать — в этом назначение жизни.</p>
                     </div>
+                      <p class="training-card__description">Видеть мир вокруг, познавать его опасности, находить друг друга, становиться ближе, чувствовать — в этом назначение жизни.</p>
                   </li>
                   <li class="training__item training-card swiper-slide">
-                    <div class="training-card__image">
-                      <picture>
-                        <source media="(max-width: 1365px)" srcset="img/alexandr-prokofiev-1x.webp 1x, img/alexandr-prokofiev-2x.webp 2x" width="255" height="200" type="image/webp">
-                        <source media="(max-width: 767px)" srcset="img/alexandr-prokofiev-tablet-1x.webp 1x, img/alexandr-prokofiev-tablet-2x.webp 2x" width="183" height="200" type="image/webp">
-                        <img src="img/alexandr-prokofiev-mobile-1x.webp" srcset="img/alexandr-prokofiev-mobile-2x.webp" width="260" height="200" alt="Александр Прокофьев">
-                      </picture>
+                    <picture>
+                      <source media="(max-width: 1365px)" srcset="img/alexandr-prokofiev-1x.webp 1x, img/alexandr-prokofiev-2x.webp 2x" width="255" height="200" type="image/webp">
+                      <source media="(max-width: 767px)" srcset="img/alexandr-prokofiev-tablet-1x.webp 1x, img/alexandr-prokofiev-tablet-2x.webp 2x" width="183" height="200" type="image/webp">
+                      <img src="img/alexandr-prokofiev-mobile-1x.webp" srcset="img/alexandr-prokofiev-mobile-2x.webp" width="260" height="200" alt="Александр Прокофьев">
+                    </picture>
+                    <div class="training-card__name">
                       <h4 class="training-card__title title">Александр Прокофьев</h4>
                       <a class="training-card__link" href="#">
                         <span class="visually-hidden">Профиль в Контакте</span>
-                        <svg role="img"  viewBox="0 0 16 19" width="16" height="19" focusable="false">
-                          <use href="/__spritemap#sprite-vk-social"></use>
+                        <svg role="img"  viewBox="0 0 14 8" width="14" height="8" focusable="false">
+                          <use href="/__spritemap#sprite-vk-aducation"></use>
                         </svg>
                       </a>
-                      <p class="training-card__description">Строгий и внимательный инструктор, весёлый и общительный человек. Любит природу.</p>
                     </div>
+                      <p class="training-card__description">Строгий и внимательный инструктор, весёлый и общительный человек. Любит природу.</p>
                   </li>
                   <li class="training__item training-card swiper-slide">
-                    <div class="training-card__image">
-                      <picture>
-                        <source media="(max-width: 1365px)" srcset="img/fedor-kaigorodov-1x.webp 1x, img/fedor-kaigorodov-2x.webp 2x" width="255" height="200" type="image/webp">
-                        <source media="(max-width: 767px)" srcset="img/fedor-kaigorodov-tablet-1x.webp 1x, img/fedor-kaigorodov-tablet-2x.webp 2x" width="183" height="200" type="image/webp">
-                        <img src="img/fedor-kaigorodov-mobile-1x.webp" srcset="img/fedor-kaigorodov-mobile-2x.webp" width="260" height="200" alt="Федор Кайгородов">
-                      </picture>
+                    <picture>
+                      <source media="(max-width: 1365px)" srcset="img/fedor-kaigorodov-1x.webp 1x, img/fedor-kaigorodov-2x.webp 2x" width="255" height="200" type="image/webp">
+                      <source media="(max-width: 767px)" srcset="img/fedor-kaigorodov-tablet-1x.webp 1x, img/fedor-kaigorodov-tablet-2x.webp 2x" width="183" height="200" type="image/webp">
+                      <img src="img/fedor-kaigorodov-mobile-1x.webp" srcset="img/fedor-kaigorodov-mobile-2x.webp" width="260" height="200" alt="Федор Кайгородов">
+                    </picture>
+                    <div class="training-card__name">
                       <h4 class="training-card__title title">Федор Кайгородов</h4>
                       <a class="training-card__link" href="#">
                         <span class="visually-hidden">Профиль в Контакте</span>
-                        <svg role="img"  viewBox="0 0 16 19" width="16" height="19" focusable="false">
-                          <use href="/__spritemap#sprite-vk-social"></use>
+                        <svg role="img"  viewBox="0 0 14 8" width="14" height="8" focusable="false">
+                          <use href="/__spritemap#sprite-vk-aducation"></use>
                         </svg>
                       </a>
-                      <p class="training-card__description">Опыт походов: Ходит в походы с 2001 года. В России побывал в горных районах Хибины, Архыз, много путешествует по Европе.</p>
                     </div>
+                      <p class="training-card__description">Опыт походов: Ходит в походы с 2001 года. В России побывал в горных районах Хибины, Архыз, много путешествует по Европе.</p>
                   </li>
                   <li class="training__item training-card swiper-slide">
-                    <div class="training-card__image">
-                      <picture>
-                        <source media="(max-width: 1365px)" srcset="img/daniel-vasnetsov-1x.webp 1x, img/daniel-vasnetsov-2x.webp 2x" width="255" height="200" type="image/webp">
-                        <source media="(max-width: 767px)" srcset="img/daniel-vasnetsov-tablet-1x.webp 1x, img/daniel-vasnetsov-tablet-2x.webp 2x" width="183" height="200" type="image/webp">
-                        <img src="img/daniel-vasnetsov-mobile-1x.webp" srcset="img/daniel-vasnetsov-mobile-2x.webp" width="260" height="200" alt="Даниэль Васнецов">
-                      </picture>
+                    <picture>
+                      <source media="(max-width: 1365px)" srcset="img/daniel-vasnetsov-1x.webp 1x, img/daniel-vasnetsov-2x.webp 2x" width="255" height="200" type="image/webp">
+                      <source media="(max-width: 767px)" srcset="img/daniel-vasnetsov-tablet-1x.webp 1x, img/daniel-vasnetsov-tablet-2x.webp 2x" width="183" height="200" type="image/webp">
+                      <img src="img/daniel-vasnetsov-mobile-1x.webp" srcset="img/daniel-vasnetsov-mobile-2x.webp" width="260" height="200" alt="Даниэль Васнецов">
+                    </picture>
+                    <div class="training-card__name">
                       <h4 class="training-card__title title">Даниэль Васнецов</h4>
                       <a class="training-card__link" href="#">
                         <span class="visually-hidden">Профиль в Контакте</span>
-                        <svg role="img"  viewBox="0 0 16 19" width="16" height="19" focusable="false">
-                          <use href="/__spritemap#sprite-vk-social"></use>
+                        <svg role="img"  viewBox="0 0 14 8" width="14" height="8" focusable="false">
+                          <use href="/__spritemap#sprite-vk-aducation"></use>
                         </svg>
                       </a>
-                      <p class="training-card__description">Покорял самые сложные вершины. Выбирался из под лавин, дружит с медведями и не только.</p>
                     </div>
+                      <p class="training-card__description">Покорял самые сложные вершины. Выбирался из под лавин, дружит с медведями и не только.</p>
                   </li>
                 </ol>
               </div>

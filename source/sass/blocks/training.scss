@@ -1,34 +1,43 @@
-.tours {
+.training {
   display: block;
   width: 100%;
   margin: 0 auto;
   padding: 36px 0 20px 0;
 }
 
-.tours__container {
+.training__container {
   padding: 0;
 }
 
-.tours__wrapper {
+.training__wrapper {
   width: 290px;
   margin: 0 auto;
 }
 
-.tours-list {
+.training__list {
   width: 320px;
   margin: 0 auto;
   padding: 0;
 }
 
-.tours__title {
+.training__title {
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 25px 0;
+  padding: 0 0 35px 0;
   font-size: 22px;
   line-height: 22px;
 }
 
-.tours__button {
+.training__description {
+  font-size: 15px;
+  line-height: 20px;
+  display: block;
+  width: 290px;
+  margin: 0 auto;
+  padding: 0 0 25px 0;
+}
+
+.training__button {
   display: none;
 }
