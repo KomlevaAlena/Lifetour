@@ -8,7 +8,6 @@
 .training__container {
   padding: 0;
 }
-
 .training__wrapper {
   width: 290px;
   margin: 0 auto;
@@ -18,6 +17,11 @@
   width: 320px;
   margin: 0 auto;
   padding: 0;
+  list-style-type: none;
+
+  .swiper-slide-active.swiper-slide {
+    border: 1 px solid rgba(45, 56, 63, 0.3);
+  }
 }
 
 .training__title {
@@ -41,3 +45,16 @@
 .training__button {
   display: none;
 }
+
+// .training__wrapper:last-of-type {
+//   padding: 25px 0 0 0;
+
+//   .training__title {
+//     padding: 0 0 25px 0;
+//   }
+
+//   .training__list {
+//     width: 250px;
+//     padding: 0 0 0 30px;
+//   }
+// }
