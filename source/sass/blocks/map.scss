@@ -1,0 +1,35 @@
+.map {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  margin: 0 auto;
+  padding: 0;
+
+  picture {
+    display: block;
+    width: 320px;
+    height: auto;
+  }
+}
+
+.map__icon {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 28px;
+  height: 28px;
+  bottom:691px;
+  right: 263px;
+  z-index: 1;
+  color: $color-blue;
+
+  svg {
+    width: 19px;
+    height: 25px;
+    fill: currentColor;
+  }
+}
