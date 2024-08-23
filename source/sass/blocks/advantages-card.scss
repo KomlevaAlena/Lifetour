@@ -1,0 +1,50 @@
+.advantages-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 288px;
+  margin: 0 auto 15px;
+  padding: 20px 10px;
+  border: 1px solid rgba(45, 56, 63, 0.3);
+}
+
+.advantages-card__image {
+  position: relative;
+  display: block;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(45, 56, 63, 0.3);
+  color: $color-blue;
+
+  svg {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    top: 20%;
+    left: 20%;
+  }
+}
+
+.advantages-card__title {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0 15px 0;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.advantages-card__description {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}

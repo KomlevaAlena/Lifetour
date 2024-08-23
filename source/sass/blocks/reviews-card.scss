@@ -1,0 +1,41 @@
+.reviews-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  //border: 1px solid rgba(45, 56, 63, 0.3);
+
+
+  picture {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+  }
+}
+
+.reviews-card__description {
+  width: 250px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0 0 15px 0;
+}
+
+.reviews-card__title {
+  width: 250px;
+  padding: 0 0 8px 0;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.reviews-card__age-location {
+  display: block;
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+}
