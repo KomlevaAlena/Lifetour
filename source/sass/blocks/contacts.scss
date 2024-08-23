@@ -1,0 +1,42 @@
+.gallery {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0 3px 0;
+}
+
+
+.contacts__container {
+  padding: 0;
+}
+
+.contacts__wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.contacts__list {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.contacts__title {
+  display: block;
+  width: 290px;
+  margin: 0 auto;
+  padding: 36px 0 27px 0;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.contacts__description {
+  display: block;
+  width: 290px;
+  margin: 0 auto;
+  padding: 0 0 31px 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+

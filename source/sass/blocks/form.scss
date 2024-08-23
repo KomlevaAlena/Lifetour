@@ -1,0 +1,57 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 258px;
+  margin: 0 auto;
+}
+
+.form__group {
+  input {
+    width: 258px;
+    //height: 40px;
+    padding: 17px 15px;
+    border: 1px solid rgba(45, 56, 63, 0.1);
+    border-radius: 3px;
+    margin: 0 0 8px 0;
+    outline: none;
+    color: $color-input-text;
+
+    &:hover {
+      border: 1px solid $color-blue;
+      outline: none;
+      color: $color-input-text;
+    }
+
+    &:focus {
+      border: 1px solid $color-main;
+      outline: none;
+      color: $color-input-text;
+    }
+
+    &:active {
+      border: 1px solid $color-main;
+      outline: none;
+      color: $color-active;
+    }
+
+    &:disabled {
+      border: 1px solid $color-disabled;
+      outline: none;
+    }
+
+    &:invalid {
+      border: 1px solid $color-error;
+      outline: none;
+    }
+
+    &::placeholder {
+      color: $color-input-text;
+      outline: none;
+    }
+  }
+}
+
+.form__button {
+  border: 1px solid transparent;
+}
