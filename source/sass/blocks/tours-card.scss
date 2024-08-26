@@ -13,6 +13,14 @@
     width: 290px;
     height: auto;
   }
+
+  @media (min-width: $vp-768) {
+    width: 330px;
+
+    picture {
+      width: 330px;
+    }
+  }
 }
 
 .tours-card__wrapper {
@@ -21,9 +29,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: left;
-  //width: 250px;
   top: 0;
-  //left: 20px;
 }
 
 .tours-card__title {
@@ -31,7 +37,6 @@
   font-family: $font-montserrat-bold;
   font-size: 24px;
   line-height: 28px;
-  //font-weight: 800px;
   color: $color-default-white;
   display: block;
   width: 100%;
@@ -47,6 +52,10 @@
     background-color: $color-default-white;
     opacity: 30%;
     top: 70px;
+  }
+
+  @media (min-width: $vp-768) {
+    padding: 0 20px 31px 20px;
   }
 }
 
@@ -115,6 +124,10 @@
       }
     }
   }
+
+  @media (min-width: $vp-768) {
+    padding: 224px 20px 15px 20px;
+  }
 }
 
 .tours-card__list:last-of-type {
@@ -151,28 +164,8 @@
       height: 16px;
     }
   }
-}
 
-
-.tours__button--all {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 220px;
-  padding: 10px;
-  margin: 25px auto 0;
-  background-color: transparent;
-  color: $color-main;
-  text-transform: uppercase;
-  letter-spacing: 0.25px;
-
-  svg {
-    display: block;
-    width: 6px;
-    height: 12px;
-    color: $color-main;
-    fill: currentColor;
-    stroke: currentColor;
+  @media (min-width: $vp-768) {
+    padding: 0 20px 30px 20px;
   }
 }

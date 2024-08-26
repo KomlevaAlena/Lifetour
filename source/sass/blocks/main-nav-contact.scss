@@ -1,30 +1,44 @@
 .main-nav__contact {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: right;
-  margin-left: auto;
+  margin: 0 0 0 50px;
   width: 264px;
+  align-items: center;
+
+  @media (min-width: $vp-768) {
+    flex-direction: row;
+    width: 652px;
+    margin: 0;
+  }
 }
 
 .main-nav__logo-link {
   display: block;
   width: 142px;
   color: $color-default-white;
+  margin-left: auto;
 
   svg {
     display: block;
     width: 100%;
-    //fill: $color-default-white;
+    fill: currentColor;
   }
 }
 
 .main-nav__tel {
   display: block;
-  width: 100%;
+  width: 122px;
   text-align: right;
   font-size: 14px;
   line-height: 14px;
   font-weight: 600;
   color: $color-default-white;
-  padding: 14px 0 15px;
+  padding: 14px 0 15px;margin-left: auto;
+
+  @media (min-width: $vp-768) {
+    width: 226px;
+    padding: 0;
+  }
 }

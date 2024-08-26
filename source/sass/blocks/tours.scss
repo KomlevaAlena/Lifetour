@@ -3,6 +3,11 @@
   width: 100%;
   margin: 0 auto;
   padding: 36px 0 20px 0;
+
+  @media (min-width: $vp-768) {
+    width: 768px;
+    padding: 40px 0 40px 0;
+  }
 }
 
 .tours__container {
@@ -12,12 +17,21 @@
 .tours__wrapper {
   width: 290px;
   margin: 0 auto;
+
+  @media (min-width: $vp-768) {
+    width: 678px;
+  }
 }
 
 .tours-list {
   width: 320px;
   margin: 0 auto;
   padding: 0;
+
+  @media (min-width: $vp-768) {
+    width: 678px;
+    padding: 25px 0 0 0;
+  }
 }
 
 .tours__title {
@@ -27,8 +41,57 @@
   padding: 0 0 25px 0;
   font-size: 22px;
   line-height: 22px;
+
+  @media (min-width: $vp-768) {
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0 0 auto 0;
+    padding: 0 0 25px 35px;
+  }
+}
+
+.tours__button--all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  padding: 10px;
+  margin: 25px auto 0;
+  background-color: transparent;
+  color: $color-main;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+
+  svg {
+    display: block;
+    width: 6px;
+    height: 12px;
+    color: $color-main;
+    fill: currentColor;
+    stroke: currentColor;
+  }
+
+  @media (min-width: $vp-768) {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+.tours__wrapper--button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 4px;
+  width: 88px;
+  margin-left: auto;
 }
 
 .tours__button {
   display: none;
+
+  @media (min-width: $vp-768) {
+    display: block;
+  }
 }

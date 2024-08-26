@@ -1,7 +1,6 @@
 .button {
   display: block;
   width: 100%;
-  //max-width: 230px;
   padding: 20px 20px;
   font-family: $font-montserrat;
   font-size: 14px;
@@ -34,8 +33,47 @@
 
   &:disabled,
   &--disabled {
-    background-color: rgba(153, 153, 116, 100%);
+    background-color: rgba(153, 153, 153, 100%);
     outline: none;
     pointer-events: none;
+  }
+}
+
+.slider__button--prev {
+  position: relative;
+  width: 37px;
+  height: 35px;
+  padding: 20px 20px;
+  position: relative;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0);
+
+  svg {
+    position: absolute;
+    content: '';
+    width: 13px;
+    height: 7px;
+    top: 44%;
+    left: 35%;
+  }
+}
+
+.slider__button--next {
+  position: relative;
+  width: 37px;
+  height: 35px;
+  padding: 20px 20px;
+  position: relative;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0);
+
+  svg {
+    position: absolute;
+    content: '';
+    width: 13px;
+    height: 7px;
+    top: 44%;
+    left: 35%;
+    transform: rotate(180deg);
   }
 }

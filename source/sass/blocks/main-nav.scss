@@ -2,10 +2,15 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 290px;
+  justify-content: center;
+  width: 100%;
   padding: 15px 0;
   margin: 0 auto;
+
+  @media (min-width: $vp-768) {
+    width: 678px;
+    padding: 20px 0;
+  }
 }
 
 .main-nav__toggle {
@@ -29,10 +34,19 @@
   width: 100%;
   background-color: $color-blue;
   position: absolute;
-  top: 115px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  top: 114px;
+  left: 0;
   z-index: 2;
+
+  @media (min-width: $vp-768) {
+    top: 82px;
+  }
 }
 
 .main-nav__menu--open {
   display: block;
 }
+

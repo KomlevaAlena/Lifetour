@@ -3,10 +3,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: column;
+  gap: 22px;
+  width: 100%;
   padding: 15px 0;
   margin: 0 auto;
   list-style-type: none;
   color: $color-default-white;
+  background-color: $color-blue;
   text-align: start;
   font-size: 14px;
   line-height: 14px;
@@ -16,16 +19,42 @@
   }
 
   &:last-child {
-    padding-bottom: 4px;
+    padding-bottom: 50px;
   }
 }
 
-.nav-list__link {
+.main-nav__item {
   display: block;
-  font-family: $font-montserrat-bold;
+  width: 320px;
+  margin: 0 auto;
+  text-align: start;
+
+  @media (min-width: $vp-768) {
+    width: 678px;
+  }
+}
+
+.main-nav__link {
+  display: block;
+  width: max-content;
   color: $color-default-white;
+  font-family: $font-montserrat-bold;
   text-transform: uppercase;
-  padding: 11px 0;
-  font-family: $font-montserrat;
-  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 3px 5px;
+
+  &:hover {
+    color: $color-default-white;
+    border-bottom: 1px solid $color-default-white;
+  }
+
+  &:focus {
+    color: $color-default-white;
+    border: 1px solid $color-default-white;
+  }
+
+  &:active {
+    color: $color-active;
+  }
 }
