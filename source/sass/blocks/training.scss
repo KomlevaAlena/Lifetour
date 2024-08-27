@@ -3,6 +3,11 @@
   width: 100%;
   margin: 0 auto;
   padding: 36px 0 20px 0;
+
+  @media (min-width: $vp-768) {
+    width: 768px;
+    padding: 40px 0 40px 0;
+  }
 }
 
 .training__container {
@@ -11,6 +16,14 @@
 .training__wrapper {
   width: 290px;
   margin: 0 auto;
+
+  @media (min-width: $vp-768) {
+    width: 678px;
+
+    .training__title{
+      padding: 0 0 25px 0;
+    }
+  }
 }
 
 .training__list {
@@ -20,7 +33,11 @@
   list-style-type: none;
 
   .swiper-slide-active.swiper-slide {
-    border: 1 px solid rgba(45, 56, 63, 0.3);
+    border: 1px solid rgba(45, 56, 63, 0.3);
+  }
+
+  @media (min-width: $vp-768) {
+    min-height: 181px;
   }
 }
 
@@ -31,6 +48,14 @@
   padding: 0 0 35px 0;
   font-size: 22px;
   line-height: 22px;
+
+  @media (min-width: $vp-768) {
+    font-size: 25px;
+    line-height: 25px;
+    width: 678px;
+    margin: 0 0 auto 0;
+    padding: 0 0 25px 40px;
+  }
 }
 
 .training__description {
@@ -40,8 +65,20 @@
   width: 290px;
   margin: 0 auto;
   padding: 0 0 25px 0;
+
+  @media (min-width: $vp-768) {
+    font-size: 16px;
+    line-height: 24px;
+    width: 678px;
+    margin: 0 0 auto 0;
+    padding: 26px 0 25px 40px;
+  }
 }
 
 .training__button {
   display: none;
+
+  @media (min-width: $vp-768) {
+    display: block;
+  }
 }

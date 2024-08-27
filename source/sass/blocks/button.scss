@@ -15,25 +15,29 @@
   &:hover{
     color: rgba(25, 51, 116, 100%);
     background-color: $color-default-white;
-    outline: 1px solid rgba(25, 51, 116, 100%);
+    outline:none;
+    border: 1px solid rgba(25, 51, 116, 100%);
   }
 
   &:focus,
   &:focus-visible {
     color: rgba(25, 51, 116, 100%);
     background-color: $color-default-white;
+    border: 1px solid transparent;
     outline: none;
   }
 
   &:active {
     color: $color-default-white;
     background-color: rgba(25, 51, 116, 100%);
+    border: 1px solid transparent;
     outline: none;
   }
 
   &:disabled,
   &--disabled {
     background-color: rgba(153, 153, 153, 100%);
+    border: 1px solid transparent;
     outline: none;
     pointer-events: none;
   }
@@ -46,7 +50,7 @@
   padding: 20px 20px;
   position: relative;
   outline: none;
-  border: 1px solid rgba(255, 255, 255, 0);
+  border: 1px solid transparent;
 
   svg {
     position: absolute;
@@ -55,6 +59,7 @@
     height: 7px;
     top: 44%;
     left: 35%;
+    transform: rotate(180deg);
   }
 }
 
@@ -65,7 +70,7 @@
   padding: 20px 20px;
   position: relative;
   outline: none;
-  border: 1px solid rgba(255, 255, 255, 0);
+  border: 1px solid transparent;
 
   svg {
     position: absolute;
@@ -74,6 +79,5 @@
     height: 7px;
     top: 44%;
     left: 35%;
-    transform: rotate(180deg);
   }
 }
