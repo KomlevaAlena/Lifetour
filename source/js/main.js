@@ -31,7 +31,9 @@ window.addEventListener('DOMContentLoaded', () => {
     sliderTours.init();
     sliderTraining.init();
     sliderReviews.init();
+    sliderAdvantages();
     window.addEventListener('resize', sliderAdvantages);
+    sliderGallery();
     window.addEventListener('resize', sliderGallery);
     mobileMenu();
     //sliderAdvantages();
