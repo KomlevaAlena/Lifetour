@@ -8,6 +8,19 @@ width: 290px;
 padding: 0 0 30px 32px;
 margin: 0 auto;
 
+  @media (min-width: $vp-768) {
+    &:first-of-type {
+      width: 153px;
+    }
+
+    &:nth-last-of-type(2n) {
+      width: 159px;
+    }
+
+    &:last-of-type {
+      width: 288px;
+    }
+  }
 }
 
 .contacts-card__image {
@@ -23,6 +36,13 @@ margin: 0 auto;
     height: 20px;
     color: currentColor;
   }
+
+  @media (min-width: $vp-768){
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
 }
 
 .contacts-card__title {
@@ -31,12 +51,21 @@ margin: 0 auto;
   margin: 0;
   font-size: 14px;
   line-height: 14px;
+
+  @media (min-width: $vp-768){
+    font-size: 16px;
+    line-height: 16px;
+  }
 }
 
 .contacts-card__description {
   width: 230px;
-  //padding: 0 0 8px 0;
   font-size: 14px;
   line-height: 20px;
   margin: 0;
+
+  @media (min-width: $vp-768){
+    line-height: 22px;
+    width: 288px;
+  }
 }
