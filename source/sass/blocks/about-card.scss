@@ -15,6 +15,12 @@
   padding: 0 0 15px 0;
   font-size: 16px;
   line-height: 16px;
+
+  @media (min-width: $vp-768) {
+    width: 270px;
+    font-size: 18px;
+    line-height: 18px;
+  }
 }
 .about-card__description {
   display: block;
@@ -22,4 +28,10 @@
   font-size: 14px;
   line-height: 20px;
   margin: 0 auto;
+
+  @media (min-width: $vp-768) {
+    width: 270px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
