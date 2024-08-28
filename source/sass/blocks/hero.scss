@@ -14,14 +14,32 @@
   @media (min-width: $vp-768) {
     width: 768px;
   }
+
+  @media (min-width: $vp-1440) {
+    width: 1440px;
+  }
 }
 
 .hero-list {
   width: 320px;
   margin: 0 auto;
   padding: 0;
+  flex-direction: row;
+  //justify-content: center;
+  //flex-wrap: wrap;
+  align-items: center;
   @media (min-width: $vp-768) {
     width: 768px;
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 1440px;
+  }
+}
+
+.hero-list.swiper-wrapper {
+  @media (min-width: $vp-1440) {
+    width: 1440px;
   }
 }
 
@@ -64,5 +82,11 @@
   @media (min-width: $vp-768) {
     width: 100px;
     left: 46%;
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 100px;
+    left: 83%;
+    bottom: 64px;
   }
 }
