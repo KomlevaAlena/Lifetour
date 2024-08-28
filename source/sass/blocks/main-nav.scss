@@ -11,6 +11,15 @@
     width: 678px;
     padding: 20px 0;
   }
+
+  @media (min-width: $vp-1440) {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 55px 0;
+  }
 }
 
 .main-nav__toggle {
@@ -26,6 +35,10 @@
     width: 26px;
     height: 26px;
     color: $color-default-white;
+  }
+
+  @media (min-width: $vp-1440) {
+    display: none;
   }
 }
 
@@ -43,6 +56,17 @@
 
   @media (min-width: $vp-768) {
     top: 82px;
+  }
+
+  @media (min-width: $vp-1440) {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 63px;
+    left: 28%;
+    width: 663px;
   }
 }
 

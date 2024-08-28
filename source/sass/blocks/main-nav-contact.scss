@@ -12,6 +12,12 @@
     width: 652px;
     margin: 0;
   }
+
+  @media (min-width: $vp-1440) {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1200px;
+  }
 }
 
 .main-nav__logo-link {
@@ -24,6 +30,10 @@
     display: block;
     width: 100%;
     fill: currentColor;
+  }
+
+  @media (min-width: $vp-1440) {
+    margin: 0;
   }
 }
 
@@ -40,5 +50,10 @@
   @media (min-width: $vp-768) {
     width: 226px;
     padding: 0;
+  }
+
+  @media (min-width: $vp-1440) {
+    font-size: 18px;
+    line-height: 18px;
   }
 }
