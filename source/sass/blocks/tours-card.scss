@@ -21,6 +21,14 @@
       width: 330px;
     }
   }
+
+  @media (min-width: $vp-768) {
+    width: 380px;
+
+    picture {
+      width: 380px;
+    }
+  }
 }
 
 .tours-card__wrapper {

@@ -6,12 +6,12 @@ h1.title {
   line-height: 30px;
   //letter-spacing: 3.2px;
 
-  @include vp-768 {
+  @media (min-width: $vp-768) {
     font-size: 56px;
     line-height: 56px;
   }
 
-  @include vp-1440 {
+  @media (min-width: $vp-1440) {
     font-size: 77px;
     line-height: 77px;
   }
@@ -24,12 +24,31 @@ h1.title {
   font-weight: 800;
   line-height: 26px;
 
-  @include vp-768 {
+  @media (min-width: $vp-768) {
     font-size: 40px;
     line-height: 40px;
   }
 
-  @include vp-1440 {
+  @media (min-width: $vp-1440) {
+    font-size: 55px;
+    line-height: 55px;
+  }
+}
+
+.title-shadow {
+  margin: 0;
+  font-family: $font-montserrat-bold;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 26px;
+  opacity: 0.03;
+
+  @media (min-width: $vp-768) {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  @media (min-width: $vp-1440) {
     font-size: 55px;
     line-height: 55px;
   }
