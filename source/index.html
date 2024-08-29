@@ -350,18 +350,20 @@
             <h3 class="training__title title">Наши инструкторы</h3>
             <div class="training__slider">
               <div class="training__wrapper--slider swiper">
-                <button class="slider__button slider__button--prev training__button training__button--prev button" type="button">
+                <div class="tours__wrapper--button">
+                  <button class="slider__button slider__button--prev ttraining__button training__button--prev button" type="button">
                   <span class="visually-hidden">Предыдущий слайд</span>
                   <svg role="img"  viewBox="0 0 14 9" width="14" height="9" focusable="false">
                     <use href="/__spritemap#sprite-trening-left-arrow"></use>
                   </svg>
-                </button>
-                <button class="slider__button slider__button--next training__button training__button--next button" type="button">
-                  <span class="visually-hidden">Предыдущий слайд</span>
-                  <svg role="img"  viewBox="0 0 14 9" width="14" height="9" focusable="false">
-                    <use href="/__spritemap#sprite-trening-left-arrow"></use>
-                  </svg>
-                </button>
+                  </button>
+                  <button class="slider__button slider__button--next training__button training__button--next button" type="button">
+                    <span class="visually-hidden">Предыдущий слайд</span>
+                    <svg role="img"  viewBox="0 0 14 9" width="14" height="9" focusable="false">
+                      <use href="/__spritemap#sprite-trening-left-arrow"></use>
+                    </svg>
+                  </button>
+                </div>
                 <ol class="training__list slider swiper-wrapper">
                   <li class="training__item training-card swiper-slide">
                     <picture>
@@ -490,6 +492,7 @@
           </picture>
           <div class="about__wrapper">
             <h2 class="about__title title">О нас</h2>
+            <span class="about__title--shadow title-shadow" aria-hidden="true">О нас</span>
             <ul class="about__list">
               <li class="about__item about-card">
                 <h3 class="about-card__title title">История компании</h3>

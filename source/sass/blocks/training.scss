@@ -1,4 +1,5 @@
 .training {
+  position: relative;
   display: block;
   width: 100%;
   margin: 0 auto;
@@ -8,10 +9,15 @@
     width: 768px;
     padding: 40px 0 40px 0;
   }
+
+  @media (min-width: $vp-1440) {
+    width: 1200px;
+  }
 }
 
 .training__container {
   padding: 0;
+  position: relative;
 }
 .training__wrapper {
   width: 290px;
@@ -23,6 +29,10 @@
     .training__title{
       padding: 0 0 25px 0;
     }
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 1200px;
   }
 }
 
@@ -56,6 +66,36 @@
     margin: 0 0 auto 0;
     padding: 0 0 25px 40px;
   }
+
+  @media (min-width: $vp-1440) {
+    font-size: 35px;
+    line-height: 100px;
+    width: 1200px;
+    padding: 0 0 37px 0;
+
+  }
+}
+
+.training__title--shadow {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 290px;
+  font-size: 22px;
+  line-height: 22px;
+
+  @media (min-width: $vp-768) {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  @media (min-width: $vp-1440) {
+    font-size: 55px;
+    line-height: 55px;
+    width: 1200px;
+    top: 62px;
+    left: 0;
+  }
 }
 
 .training__description {
@@ -72,6 +112,11 @@
     width: 678px;
     margin: 0 0 auto 0;
     padding: 26px 0 25px 40px;
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 840px;
+    padding: 0 0 56px 0;
   }
 }
 

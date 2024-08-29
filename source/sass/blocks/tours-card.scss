@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: bottom;
   width: 290px;
   margin: 0 auto;
 
@@ -36,7 +36,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: left;
+  justify-content: end;
+  height: 100%;
   top: 0;
 }
 
@@ -64,6 +65,10 @@
 
   @media (min-width: $vp-768) {
     padding: 0 20px 31px 20px;
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 277px;
   }
 }
 
@@ -100,7 +105,7 @@
 }
 
 .tours-card__list:first-of-type {
-  padding: 200px 5px 15px 5px;
+  padding: 8px 5px 15px 5px;
 
   .tours-card__item {
     padding: 8px 16px 8px 12px;
@@ -134,7 +139,7 @@
   }
 
   @media (min-width: $vp-768) {
-    padding: 224px 20px 15px 20px;
+    padding: 8px 20px 15px 20px;
   }
 }
 

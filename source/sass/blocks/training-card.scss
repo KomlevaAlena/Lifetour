@@ -21,8 +21,14 @@
     align-self: stretch;
     flex-shrink: 0;
 
+
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 285px;
+
     picture {
-      width: 183px;
+      width: 255px;
     }
   }
 }
@@ -46,6 +52,10 @@
 
   @media (min-width: $vp-768) {
     width: 183px;
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 255px;
   }
 }
 
@@ -89,5 +99,9 @@
   @media (min-width: $vp-768) {
     width: 183px;
     min-height: 96px;
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 255px;
   }
 }
