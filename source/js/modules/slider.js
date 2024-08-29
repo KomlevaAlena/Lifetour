@@ -108,7 +108,7 @@ export const sliderReviews = new Swiper('.reviews__wrapper', {
       spaceBetween: 30,
     },
     1440: {
-      slidesPerView: 2,
+      slidesPerView: 1.756,
       spaceBetween: 120,
     },
   },
@@ -133,8 +133,9 @@ export const sliderAdvantages = function sliderAdvantages() {
       modules: [Navigation, Pagination],
       breakpoints: {
         1440: {
-          slidesPerView: 5,
+          slidesPerView: 3.58,
           spaceBetween: 30,
+          freeMode: true,
         },
       },
     });
