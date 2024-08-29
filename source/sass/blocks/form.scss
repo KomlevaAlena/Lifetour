@@ -11,12 +11,25 @@
     line-height: 16px;
     width: 360px;
   }
+
+  @media (min-width: $vp-1440) {
+    width: 960px;
+    flex-direction: row;
+
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+  }
 }
 
 .form__group {
   input {
     width: 258px;
-    //height: 40px;
     padding: 17px 15px;
     border: 1px solid rgba(45, 56, 63, 0.1);
     border-radius: 3px;
@@ -60,14 +73,26 @@
     @media (min-width: $vp-768) {
       width: 358px;
     }
+
+    @media (min-width: $vp-768) {
+      padding: 30px 20px;
+      margin: 0;
+    }
   }
 }
 
 .form__button {
+  font-family: $font-montserrat-light;
+  font-weight: 400;
   border: 1px solid transparent;
 
   @media (min-width: $vp-768) {
     font-size: 16px;
     line-height: 16px;
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 170px;
+    padding: 20px 40px;
   }
 }
