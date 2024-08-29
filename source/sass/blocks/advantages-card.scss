@@ -42,6 +42,16 @@
     top: 20%;
     left: 20%;
   }
+
+  @media (min-width: $vp-1440) {
+    width: 54px;
+    height: 54px;
+
+    svg {
+      top: 25%;
+      left: 25%;
+    }
+  }
 }
 
 .advantages-card__title {
@@ -57,6 +67,11 @@
     padding: 25px 0 15px 0;
     font-size: 16px;
     line-height: 16px;
+  }
+
+  @media (min-width: $vp-1440) {
+    font-size: 18px;
+    line-height: 18px;
   }
 }
 
