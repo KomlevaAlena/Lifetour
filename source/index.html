@@ -848,9 +848,14 @@
           <div class="footer__list--wrapper">
             <a class="footer__logo" href="index.html" aria-current="page">
             <span class="visually-hidden">Lifetour</span>
-            <svg role="img"  viewBox="0 0 142 42" width="142" height="42" focusable="false">
+            <!--svg role="img"  viewBox="0 0 142 42" width="142" height="42" focusable="false">
               <use href="/__spritemap#sprite-logotype-text"></use>
-            </svg>
+            </!--svg-->
+            <picture>
+              <source media="(min-width: 1440px)" srcset="img/logotype-footer-2x.webp 1x, img/logotype-footer-2x.webp 2x" width="142" height="42" type="image/webp">
+              <source media="(min-width: 768px)" srcset="img/logotype-footer-1x.webp 1x, img/logotype-footer-2x.webp 2x" width="142" height="42" type="image/webp">
+              <img src="img/logotype-footer-1x.webp" srcset="img/logotype-footer-2x.webp" width="142" height="42" alt="Lifetour logotype.">
+            </picture>
             </a>
             <ul class="footer__list nav-list">
               <li class="nav-list__item">
