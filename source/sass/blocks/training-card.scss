@@ -6,7 +6,7 @@
   justify-content: center;
   width: 288px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 15px 15px 13px;
   border: 1px solid rgba(45, 56, 63, 0.3);
 
   picture {
@@ -60,8 +60,8 @@
 }
 
 .training-card__title {
-  width: 210px;
-  padding: 15px 0;
+  width: min-content;
+  padding: 16px 0 15px;
   font-size: 14px;
   line-height: 16px;
 
@@ -77,6 +77,8 @@
   height: 24px;
   border: 1px solid rgba(45, 56, 63, 0.3);
   color: $color-main;
+  top: -5px;
+  left: -1px;
 
   svg {
     position: absolute;
@@ -85,7 +87,7 @@
     width: 14px;
     height: 8px;
     fill: currentColor;
-    top: 34%;
+    top: 30%;
     left: 16%;
   }
 }

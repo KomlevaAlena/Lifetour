@@ -20,9 +20,9 @@ h1.title {
 .title {
   margin: 0;
   font-family: $font-montserrat-bold;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 800;
-  line-height: 26px;
+  line-height: 22px;
 
   @media (min-width: $vp-768) {
     font-size: 40px;
@@ -41,7 +41,8 @@ h1.title {
   font-size: 26px;
   font-weight: 800;
   line-height: 26px;
-  opacity: 0.03;
+  opacity: 0.1;
+  color: $color-main;
 
   @media (min-width: $vp-768) {
     font-size: 40px;

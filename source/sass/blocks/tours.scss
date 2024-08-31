@@ -111,11 +111,16 @@
   align-items: center;
   width: 220px;
   padding: 10px;
-  margin: 25px auto 0;
+  margin: 24px auto 0;
   background-color: transparent;
   color: $color-main;
   text-transform: uppercase;
   letter-spacing: 1px;
+
+  span {
+    display: block;
+    padding: 0 0 0 2px;
+  }
 
   svg {
     display: block;

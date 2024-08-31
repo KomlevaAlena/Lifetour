@@ -55,9 +55,10 @@
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 35px 0;
+  padding: 0 0 34px 0;
   font-size: 22px;
   line-height: 22px;
+  letter-spacing: 0.25px;
 
   @media (min-width: $vp-768) {
     font-size: 25px;
@@ -81,8 +82,10 @@
   position: absolute;
   content: '';
   width: 290px;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 26px;
+  line-height: 26px;
+  top: 19px;
+  left: 213px;
 
   @media (min-width: $vp-768) {
     font-size: 25px;
@@ -104,7 +107,8 @@
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 25px 0;
+  padding: 0 0 28px 0;
+  letter-spacing: -0.55px;
 
   @media (min-width: $vp-768) {
     font-size: 16px;
@@ -117,6 +121,12 @@
   @media (min-width: $vp-1440) {
     width: 840px;
     padding: 0 0 56px 0;
+  }
+}
+
+.training__wrapper {
+  .training__title {
+    padding: 0 0 21px 0;
   }
 }
 
