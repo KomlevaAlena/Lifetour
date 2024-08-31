@@ -5,8 +5,12 @@ flex-direction: column;
 justify-content: space-between;
 flex-wrap: wrap;
 width: 290px;
-padding: 0 0 30px 32px;
+padding: 0 0 29px 32px;
 margin: 0 auto;
+
+&:last-of-type {
+  padding: 0 0 31px 32px;
+}
 
   @media (min-width: $vp-768) {
     &:first-of-type {
@@ -32,13 +36,13 @@ margin: 0 auto;
   position: absolute;
   content: '';
   left: 0;
-  top: -2%;
+  top: 0;
   width: 22px;
   height: 22px;
 
   svg {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     color: currentColor;
   }
 
@@ -61,10 +65,11 @@ margin: 0 auto;
 
 .contacts-card__title {
   width: 258px;
-  padding: 0 0 8px 0;
+  padding: 0 0 7px 0;
   margin: 0;
   font-size: 14px;
   line-height: 14px;
+  letter-spacing: 0.25px;
 
   @media (min-width: $vp-768){
     font-size: 16px;
@@ -73,7 +78,7 @@ margin: 0 auto;
 }
 
 .contacts-card__description {
-  width: 230px;
+  width: 189px;
   font-size: 14px;
   line-height: 20px;
   margin: 0;

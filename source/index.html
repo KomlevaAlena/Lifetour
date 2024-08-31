@@ -830,12 +830,16 @@
             </li>
           </ul>
           <div class="contacts__map map">
-            right: 122px;
-          </div>
-          <div class="map__icon">
-            <svg role="img"  viewBox="0 0 22 22" width="22" height="22" focusable="false">
-              <use href="/__spritemap#sprite-pin-filled"></use>
-            </svg>
+            <picture>
+              <source media="(min-width: 1440px)" srcset="img/map-1x.webp 1x, img/map-2x.webp 2x" width="600" height="324" type="image/webp">
+              <source media="(min-width: 768px)" srcset="img/map-tablet-1x.webp 1x, img/map-tablet-2x.webp 2x" width="768" height="340" type="image/webp">
+              <img src="img/map-mobile-1x.webp" srcset="img/map-mobile-2x.webp" width="320" height="343" alt="Мы на карте">
+            </picture>
+            <div class="contacts__map--icon">
+              <svg role="img"  viewBox="0 0 22 22" width="22" height="22" focusable="false">
+                <use href="/__spritemap#sprite-pin-filled"></use>
+              </svg>
+            </div>
           </div>
         </section>
       </main>

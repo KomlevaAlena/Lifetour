@@ -59,9 +59,10 @@
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 36px 0 29px 0;
+  padding: 38px 0 28px 0;
   font-size: 22px;
   line-height: 22px;
+  letter-spacing: 0.3px;
 
   @media (min-width: $vp-768) {
     width: 678px;
@@ -87,9 +88,9 @@
   width: max-content;
   font-size: 26px;
   line-height: 26px;
-  letter-spacing: 0.3px;
-  top: 0;
-  left: 0;
+  letter-spacing: 0.35px;
+  top: 24px;
+  left: 15px;
 
   @media (min-width: $vp-768) {
     font-size: 25px;
@@ -132,16 +133,4 @@
   }
 }
 
-.contacts__map {
-  @media (min-width: $vp-1440) {
-    //position: absolute;
-    //content: '';
-    display: block;
-    width: 600px;
-    margin: 0;
-    padding: 0;
-    grid-column: 2/3;
-    grid-row: 1/4;
-    //
-  }
-}
+
