@@ -23,18 +23,87 @@
 }
 
 .main-nav__toggle {
+  position: relative;
   display: block;
   border: none;
+  //mask-image: url("../img/menu.svg");
+  mask: url("../img/menu.svg") no-repeat 100% 100%;
+  mask-size: cover;
+  background-repeat: no-repeat;
+  background-color: $color-default-white;
+  width: 26px;
+  height: 26px;
+  padding: 2px;
+  color: $color-default-white;
+  border: 1px solid transparent;
+
+  &:hover {
+    border: 1px solid transparent;
+    border-bottom: 1px solid $color-default-white;
+    background-color: $color-default-white;
+    outline: none;
+  }
+
+  &:focus {
+    border: 1px solid $color-default-white;
+    background-color: $color-default-white;
+    outline: none;
+  }
+
+  &:active {
+    border: 1px solid transparent;
+    background-color: $color-active;
+    outline: none;
+  }
+
+  &:disabled {
+    border: 1px solid transparent;
+    background-color: $color-disabled;
+    outline: none;
+  }
+
+  @media (min-width: $vp-1440) {
+    display: none;
+  }
+}
+
+.main-nav__toggle--active {
+  position: relative;
+  display: block;
+  border: none;
+  mask: url("../img/cross.svg") no-repeat 100% 100%;
+  mask-size: cover;
+  background-repeat: no-repeat;
+  background-color: $color-default-white;
   width: 26px;
   height: 26px;
   padding: 0;
   color: $color-default-white;
-  fill: currentColor;
+  border: 1px solid transparent;
 
-  svg {
-    width: 26px;
-    height: 26px;
-    color: $color-default-white;
+  &:hover {
+    border: 1px solid transparent;
+    border-bottom: 1px solid $color-default-white;
+    background-color: $color-default-white;
+    outline: none;
+  }
+
+  &:focus {
+    border: 1px solid $color-default-white;
+    background-color: $color-default-white;
+    outline: none;
+  }
+
+  &:active {
+    border: 1px solid transparent;
+    background-color: $color-active;
+    outline: none;
+  }
+
+  &:disabled {
+    border: 1px solid transparent;
+    background-color: $color-disabled;
+    outline: none;
   }
 
   @media (min-width: $vp-1440) {
@@ -50,7 +119,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
-  top: 114px;
+  top: 97px;
   left: 0;
   z-index: 2;
 
@@ -73,4 +142,5 @@
 .main-nav__menu--open {
   display: block;
 }
+
 

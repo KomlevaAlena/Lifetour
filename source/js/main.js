@@ -27,6 +27,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const form = new Form();
     window.form = form;
     form.init();
+    mobileMenu();
+    //mobileMenu.init();
     sliderHero.init();
     sliderTours.init();
     sliderTraining.init();
@@ -35,7 +37,7 @@ window.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', sliderAdvantages);
     sliderGallery();
     window.addEventListener('resize', sliderGallery);
-    mobileMenu();
+    //
     //sliderAdvantages();
     // slider2.init();
     // initTabs();
