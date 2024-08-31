@@ -24,10 +24,10 @@
 
   @media (min-width: $vp-1440) {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 663px;
-    gap: 30px;
+    width: 585px;
+    gap: 0;
 
     &:first-child {
       padding-top: 0;

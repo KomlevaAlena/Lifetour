@@ -81,7 +81,6 @@
   font-family: $font-montserrat-bold;
   font-size: 26px;
   line-height: 26px;
-  //font-weight: 800px;
   text-align: center;
   color: $color-default-white;
   display: block;
@@ -103,10 +102,11 @@
   @media (min-width: $vp-1440) {
     width: 940px;
     margin: 0;
-    padding: 200px 0 25px 0;
+    padding: 200px 0 24px 0;
     font-size: 77px;
     line-height: 77px;
     text-align: start;
+    letter-spacing: 1.05px;
 
     br {
       display: block;
@@ -133,7 +133,7 @@
   @media (min-width: $vp-1440) {
     width: 420px;
     margin: 0;
-    padding: 0 0 35px 0;
+    padding: 0 0 36px 0;
     font-size: 17px;
     line-height: 24px;
     text-align: start;
@@ -145,6 +145,10 @@
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
+
+  @media (min-width: $vp-1440) {
+    padding: 21px 20px 19px;
+  }
 }
 
 
@@ -155,16 +159,18 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 10px;
     list-style-type: none;
     color: $color-default-white;
-    padding: 134px 0 0 0;
+    padding: 133px 0 0 0;
     border: 1px solid transparent;
+    width: 350px;
   }
 }
 
 .hero-card__item {
+  position: relative;
   background-color: transparent;
   border: 1px solid $color-default-white;
   font-family: $font-montserrat;
@@ -172,6 +178,25 @@
   font-size: 12px;
   line-height: 16px;
   width: max-content;
+  min-width: 154px;
+  padding: 13px 15px 13px 32px;
+
+  &:last-of-type {
+    min-width: 183px;
+    svg {
+      right: 151px;
+    }
+  }
+
+  svg {
+    position: absolute;
+    content: '';
+    top: 15px;
+    right: 122px;
+    width: 12px;
+    height: 12px;
+    fill: $color-default-white;
+  }
 
   &:hover{
     color: $color-default-white;
