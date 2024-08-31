@@ -30,14 +30,14 @@
 .reviews-card {
   width: 250px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 9px 20px 0;
 
   picture {
     display: block;
     width: 250px;
     height: auto;
     margin: 0 auto;
-    padding: 0 0 20px 0;
+    padding: 0 0 19px 0;
   }
 
   @media (min-width: $vp-768) {
@@ -80,7 +80,11 @@
   margin: 0;
   font-size: 12px;
   line-height: 18px;
-  padding: 0 0 15px 0;
+  padding: 0 0 10px 0;
+
+  &:last-of-type {
+    padding: 0 0 16px 0;
+  }
 
   @media (min-width: $vp-768) {
     width: 274px;
