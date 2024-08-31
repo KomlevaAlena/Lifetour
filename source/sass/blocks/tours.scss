@@ -3,7 +3,7 @@
   position: relative;
   width: 100%;
   margin: 0 auto;
-  padding: 36px 0 20px 0;
+  padding: 40px 0 20px 0;
 
   @media (min-width: $vp-768) {
     width: 768px;
@@ -55,15 +55,14 @@
   }
 }
 
-
 .tours__title {
   display: block;
-
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 25px 0;
+  padding: 0 0 39px 0;
   font-size: 22px;
   line-height: 22px;
+  letter-spacing: 0.3px;
 
   @media (min-width: $vp-768) {
     font-size: 25px;
@@ -84,8 +83,12 @@
   position: absolute;
   content: '';
   width: 290px;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0.35px;
+  left: 212px;
+  top: 25px;
+
 
   @media (min-width: $vp-768) {
     font-size: 25px;
@@ -112,12 +115,12 @@
   background-color: transparent;
   color: $color-main;
   text-transform: uppercase;
-  letter-spacing: 0.25px;
+  letter-spacing: 1px;
 
   svg {
     display: block;
-    width: 6px;
-    height: 12px;
+    width: 9px;
+    height: 14px;
     color: $color-main;
     fill: currentColor;
     stroke: currentColor;

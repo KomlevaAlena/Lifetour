@@ -81,12 +81,13 @@
   font-family: $font-montserrat-bold;
   font-size: 26px;
   line-height: 26px;
+  letter-spacing: 0.3px;
   text-align: center;
   color: $color-default-white;
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 145px 0 15px 0;
+  padding: 146px 0 15px 0;
 
   br {
     display: none;
@@ -120,9 +121,9 @@
   font-size: 15px;
   line-height: 20px;
   display: block;
-  width: 290px;
+  width: 276px;
   margin: 0 auto;
-  padding: 0 0 60px 0;
+  padding: 0 0 59px 0;
 
   @media (min-width: $vp-768) {
     width: 500px;
@@ -145,6 +146,7 @@
   font-size: 16px;
   line-height: 16px;
   font-weight: 400;
+  padding: 21px 20px 19px;
 
   @media (min-width: $vp-1440) {
     padding: 21px 20px 19px;
