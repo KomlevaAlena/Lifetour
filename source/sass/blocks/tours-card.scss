@@ -39,6 +39,10 @@
   justify-content: end;
   height: 100%;
   top: 0;
+
+  @media (min-width: $vp-768) {
+    width: 100%;
+  }
 }
 
 .tours-card__title {
@@ -148,6 +152,7 @@
 
   @media (min-width: $vp-768) {
     padding: 8px 20px 15px 20px;
+    justify-content: space-between;
   }
 }
 
@@ -206,6 +211,18 @@
   }
 
   @media (min-width: $vp-768) {
-    padding: 0 20px 30px 20px;
+    padding: 0 0 30px 0;
+    width: 291px;
+
+    .tours-card__item {
+
+      &:first-of-type {
+        margin-right: 28px;
+     }
+
+      &:last-of-type {
+        margin-left: 26px;
+      }
+    }
   }
 }

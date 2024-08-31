@@ -26,7 +26,6 @@
   position: relative;
   display: block;
   border: none;
-  //mask-image: url("../img/menu.svg");
   mask: url("../img/menu.svg") no-repeat 100% 100%;
   mask-size: cover;
   background-repeat: no-repeat;
@@ -60,6 +59,10 @@
     border: 1px solid transparent;
     background-color: $color-disabled;
     outline: none;
+  }
+
+  @media (min-width: $vp-768) {
+    margin: 8px 0 0 0;
   }
 
   @media (min-width: $vp-1440) {

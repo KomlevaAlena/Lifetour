@@ -47,7 +47,7 @@
   position: relative;
   width: 37px;
   height: 35px;
-  padding: 20px 20px;
+  padding: 17px 17px;
   position: relative;
   outline: none;
   border: 1px solid transparent;
@@ -57,8 +57,9 @@
     content: '';
     width: 13px;
     height: 7px;
-    top: 44%;
-    left: 35%;
+    top: 12px;
+    left: 10px;
+    transform: rotate(180deg);
   }
 }
 
@@ -66,7 +67,7 @@
   position: relative;
   width: 37px;
   height: 35px;
-  padding: 20px 20px;
+  padding: 17px 17px;
   position: relative;
   outline: none;
   border: 1px solid transparent;
@@ -76,8 +77,7 @@
     content: '';
     width: 13px;
     height: 7px;
-    top: 44%;
-    left: 35%;
-    transform: rotate(180deg);
+    top: 12px;
+    left: 10px;
   }
 }

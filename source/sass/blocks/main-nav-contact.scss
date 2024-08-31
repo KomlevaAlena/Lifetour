@@ -26,12 +26,6 @@
   color: $color-default-white;
   margin-left: auto;
 
-  // svg {
-  //   display: block;
-  //   width: 100%;
-  //   fill: currentColor;
-  // }
-
   &:hover {
     border: 1px solid transparent;
     border-bottom: 1px solid $color-default-white;
@@ -80,8 +74,10 @@
   margin-left: auto;
 
   @media (min-width: $vp-768) {
-    width: 226px;
+    width: 268px;
     padding: 0;
+    margin: 0;
+    letter-spacing: 1.25px;
   }
 
   @media (min-width: $vp-1440) {
