@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: right;
   margin: 0 0 0 50px;
-  width: 264px;
+  width: 214px;
   align-items: center;
 
   @media (min-width: $vp-768) {
@@ -26,10 +26,40 @@
   color: $color-default-white;
   margin-left: auto;
 
-  svg {
-    display: block;
-    width: 100%;
-    fill: currentColor;
+  // svg {
+  //   display: block;
+  //   width: 100%;
+  //   fill: currentColor;
+  // }
+
+  &:hover {
+    border: 1px solid transparent;
+    border-bottom: 1px solid $color-default-white;
+    background-color: transparent;
+    outline: none;
+    //color: rgba(45, 56, 63, 0.2);
+  }
+
+  &:focus {
+    border: 1px solid $color-default-white;
+    background-color: transparent;
+    outline: none;
+    //color: $color-blue;
+  }
+
+  &:active {
+    border: 1px solid transparent;
+    background-color: transparent;
+    outline: none;
+    opacity: 0.5;
+    //color: $color-active;
+  }
+
+  &:disabled {
+    border: 1px solid transparent;
+    background-color: transparent;
+    outline: none;
+    opacity: 0.2;
   }
 
   @media (min-width: $vp-1440) {
@@ -46,7 +76,8 @@
   line-height: 14px;
   font-weight: 600;
   color: $color-default-white;
-  padding: 14px 0 15px;margin-left: auto;
+  padding: 16px 0 0;
+  margin-left: auto;
 
   @media (min-width: $vp-768) {
     width: 226px;
