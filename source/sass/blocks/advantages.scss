@@ -1,6 +1,6 @@
 .advantages {
   display: block;
-  position: relative;
+  //position: relative;
   width: 100%;
   margin: 0 auto;
   padding: 39px 0 20px 0;
@@ -49,6 +49,14 @@
   }
 }
 
+.advantages__title-wrapper {
+  display: block;
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .advantages__title {
   display: block;
   width: 290px;
@@ -77,12 +85,12 @@
   display: block;
   position: absolute;
   content: '';
-  width: 260px;
+  width: max-content;
   font-size: 26px;
   line-height: 26px;
   letter-spacing: 0.3px;
-  top: 26px;
-  left: 248px;
+  top: -14px;
+  left: 51px;
 
   @media (min-width: $vp-768) {
     font-size: 25px;

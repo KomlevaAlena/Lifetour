@@ -45,10 +45,18 @@
   }
 }
 
+.about__title-wrapper {
+  display: block;
+  position: relative;
+  width: 290px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .about__title {
   width: 290px;
   margin: 0 auto;
-  padding: 17px 16px 0 0;
+  padding: 17px 0 0 0;
   font-size: 22px;
   line-height: 22px;
 
@@ -70,9 +78,10 @@
   display: block;
   position: absolute;
   content: '';
-  width: 290px;
+  width: max-content;
   font-size: 26px;
   line-height: 26px;
+  letter-spacing: 0.3px;
   top: 3px;
   left: 0;
 

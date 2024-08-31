@@ -1,6 +1,6 @@
 .contacts {
   display: block;
-  position: relative;
+  //position: relative;
   width: 100%;
   margin: 0 auto;
   padding: 0 0 20px 0;
@@ -47,6 +47,14 @@
   }
 }
 
+.contacts__title-wrapper {
+  display: block;
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .contacts__title {
   display: block;
   width: 290px;
@@ -76,9 +84,12 @@
   display: block;
   position: absolute;
   content: '';
-  width: 290px;
-  font-size: 22px;
-  line-height: 22px;
+  width: max-content;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: 0.3px;
+  top: 0;
+  left: 0;
 
   @media (min-width: $vp-768) {
     font-size: 25px;

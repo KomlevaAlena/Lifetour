@@ -1,6 +1,6 @@
 .reviews {
   display: block;
-  position: relative;
+  //position: relative;
   width: 100%;
   margin: 0 auto;
   padding: 36px 0 20px 0;
@@ -80,15 +80,23 @@
   }
 }
 
+.reviews__title-wrapper {
+  display: block;
+  position: relative;
+  width: 290px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .reviews__title--shadow {
   display: block;
   position: absolute;
   content: '';
-  width: 290px;
+  width: max-content;
   font-size: 26px;
   line-height: 26px;
-  top: 22px;
-  left: 212px;
+  top: -13px;
+  left: 0;
   letter-spacing: 0.3px;
 
   @media (min-width: $vp-768) {

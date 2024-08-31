@@ -1,5 +1,5 @@
 .training {
-  position: relative;
+  //position: relative;
   display: block;
   width: 100%;
   margin: 0 auto;
@@ -51,6 +51,14 @@
   }
 }
 
+.training__title-wrapper {
+  display: block;
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .training__title {
   display: block;
   width: 290px;
@@ -81,11 +89,12 @@
   display: block;
   position: absolute;
   content: '';
-  width: 290px;
+  width: max-content;
   font-size: 26px;
   line-height: 26px;
-  top: 19px;
-  left: 213px;
+  letter-spacing: 0.3px;
+  top: -17px;
+  left: 15px;
 
   @media (min-width: $vp-768) {
     font-size: 25px;
