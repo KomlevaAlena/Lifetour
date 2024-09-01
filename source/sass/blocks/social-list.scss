@@ -34,6 +34,10 @@
     height: 9px;
     top: 31%;
     left: 20%;
+
+    @media (min-width: $vp-768) {
+      top: 33%
+    }
   }
 }
 
@@ -43,6 +47,10 @@
     height: 16px;
     top: 20%;
     left: 34%;
+    @media (min-width: $vp-768) {
+      top: 21%;
+      left: 31%;
+    }
   }
 }
 
@@ -52,5 +60,9 @@
     height: 15px;
     top: 21%;
     left: 26%;
+    @media (min-width: $vp-768) {
+      top: 21%;
+      left: 24%;
+    }
   }
 }
