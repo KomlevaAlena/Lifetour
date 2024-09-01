@@ -103,7 +103,7 @@ export const sliderReviews = new Swiper('.reviews__wrapper', {
       spaceBetween: 0,
     },
     768: {
-      slidesPerView:1.5,
+      slidesPerView:1.341,
       centeredSlides: true,
       spaceBetween: 30,
     },

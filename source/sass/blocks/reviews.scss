@@ -1,9 +1,12 @@
 .reviews {
   display: block;
-  //position: relative;
   width: 100%;
   margin: 0 auto;
   padding: 36px 0 20px 0;
+
+  @media (min-width: $vp-768) {
+    padding: 39px 0 20px 0;
+  }
 
   @media (min-width: $vp-1440) {
     width: 1440px;
@@ -21,7 +24,7 @@
   box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
 
   @media (min-width: $vp-768) {
-    width: 100%;
+    width: 768px;
     margin: 0;
     box-shadow: none;
   }
@@ -33,7 +36,7 @@
 }
 
 .reviews__wrapper.swiper {
-  padding: 10px 0 0;
+  padding: 10px 0 10px;
 
   @media (min-width: $vp-1440) {
     width: 1320px;
@@ -69,7 +72,9 @@
   @media (min-width: $vp-768) {
     font-size: 25px;
     line-height: 25px;
-    margin: 0 auto 0 40px;
+    margin: 0;
+    letter-spacing: 0.45px;
+    padding: 0 0 26px 0;
   }
 
   @media (min-width: $vp-1440) {
@@ -86,6 +91,10 @@
   width: 290px;
   margin: 0 auto;
   padding: 0;
+
+  @media (min-width: $vp-768) {
+    width: 678px;
+  }
 }
 
 .reviews__title--shadow {
@@ -100,8 +109,11 @@
   letter-spacing: 0.3px;
 
   @media (min-width: $vp-768) {
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 40px;
+    line-height: 40px;
+    left: 0;
+    top: -15px;
+    letter-spacing: 0.65px;
   }
 
   @media (min-width: $vp-1440) {
@@ -114,6 +126,8 @@
 }
 
 .reviews__wrapper--button {
+  position: absolute;
+  content: '';
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -121,6 +135,12 @@
   gap: 4px;
   width: 88px;
   margin-left: auto;
+
+  @media (min-width: $vp-768) {
+    width: 78px;
+    top: 0;
+    right: 0;
+  }
 }
 
 .reviews__button {
