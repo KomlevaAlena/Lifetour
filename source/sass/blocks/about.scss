@@ -14,11 +14,13 @@
     flex-direction: row;
     justify-content: space-between;
     width: 768px;
-    padding: 60px 0 40px 0;
+    padding: 46px 0 40px 0;
+    margin: 0 auto;
 
     picture {
       width: 450px;
-      padding-top: 55px;
+      padding-top: 131px;
+      margin: 0;
     }
   }
 
@@ -39,6 +41,11 @@
   width: 290px;
   margin: 0 auto;
   position: relative;
+
+  @media (min-width: $vp-768) {
+    width: 270px;
+    margin: 0 auto 0 0;
+  }
 
   @media (min-width: $vp-1440) {
     width: 660px;
@@ -64,6 +71,8 @@
     font-size: 25px;
     line-height: 25px;
     width: 270px;
+    margin: 0;
+    letter-spacing: 0.35px;
   }
 
   @media (min-width: $vp-1440) {
@@ -86,8 +95,11 @@
   left: 0;
 
   @media (min-width: $vp-768) {
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 40px;
+    line-height: 40px;
+    left: -1px;
+    top: 2px;
+    letter-spacing: 0.65px;
   }
 
   @media (min-width: $vp-1440) {
@@ -110,6 +122,7 @@
 
   @media (min-width: $vp-768) {
     width: 270px;
+    padding: 47px 0 22px;
   }
 
   @media (min-width: $vp-1440) {
