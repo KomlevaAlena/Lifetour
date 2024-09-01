@@ -11,7 +11,7 @@
 
   @media (min-width: $vp-1440) {
     width: 1200px;
-    padding: 100px 0 100px 0;
+    padding: 90px 0 100px 0;
   }
 }
 
@@ -44,7 +44,7 @@
 
   @media (min-width: $vp-1440) {
     width: 1200px;
-    padding: 53px 0 0 0;
+    padding: 0;
   }
 }
 
@@ -63,6 +63,10 @@
 
   @media (min-width: $vp-768) {
     width: 678px;
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 1200px;
   }
 }
 
@@ -87,6 +91,8 @@
     font-size: 35px;
     line-height: 100px;
     width: 1200px;
+    padding: 0 0 16px 0;
+    letter-spacing: 0.5px;
   }
 }
 
@@ -114,8 +120,9 @@
     font-size: 55px;
     line-height: 55px;
     width: 1200px;
-    top: 125px;
-    left: 30px;
+    top: 14px;
+    left: 0;
+    letter-spacing: 0.9px;
   }
 }
 
@@ -152,6 +159,10 @@
     width: 238px;
     margin: 25px auto 0;
   }
+
+  @media (min-width: $vp-1440) {
+    margin: 54px auto 0;
+  }
 }
 
 .tours__wrapper--button {
@@ -165,6 +176,10 @@
   width: 78px;
   top: -1px;
   right: 0;
+
+  @media (min-width: $vp-1440) {
+    top: 28px;
+  }
 }
 
 .tours__button {
