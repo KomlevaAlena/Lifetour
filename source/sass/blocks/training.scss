@@ -1,5 +1,4 @@
 .training {
-  //position: relative;
   display: block;
   width: 100%;
   margin: 0 auto;
@@ -7,7 +6,7 @@
 
   @media (min-width: $vp-768) {
     width: 768px;
-    padding: 40px 0 40px 0;
+    padding: 57px 0 40px 0;
   }
 
   @media (min-width: $vp-1440) {
@@ -19,6 +18,7 @@
   padding: 0;
   position: relative;
 }
+
 .training__wrapper {
   width: 290px;
   margin: 0 auto;
@@ -57,6 +57,30 @@
   width: 320px;
   margin: 0 auto;
   padding: 0;
+
+  @media (min-width: $vp-768) {
+    width: 678px;
+  }
+}
+
+
+.training__wrapper--button {
+  position: absolute;
+  content: '';
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 4px;
+  width: 78px;
+  top: -1px;
+  right: 0;
+
+  @media (min-width: $vp-768) {
+    top: 157px;
+    //margin-left: auto;
+    right: 0;
+  }
 }
 
 .training__title {
@@ -73,7 +97,7 @@
     line-height: 25px;
     width: 678px;
     margin: 0 0 auto 0;
-    padding: 0 0 25px 40px;
+    padding: 0 0 8px 0;
   }
 
   @media (min-width: $vp-1440) {
@@ -97,8 +121,11 @@
   left: 15px;
 
   @media (min-width: $vp-768) {
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 40px;
+    line-height: 40px;
+    left: 0;
+    top: -15px;
+    letter-spacing: 0.65px;
   }
 
   @media (min-width: $vp-1440) {
@@ -118,36 +145,49 @@
   margin: 0 auto;
   padding: 0 0 28px 0;
   letter-spacing: -0.55px;
+  br {
+    display: none;
+  }
 
   @media (min-width: $vp-768) {
     font-size: 16px;
     line-height: 24px;
-    width: 678px;
+    width: 723px;
     margin: 0 0 auto 0;
-    padding: 26px 0 25px 40px;
+    padding: 26px 0 30px 43px;
+    letter-spacing: 0.05px;
+
+    br {
+      display: block;
+    }
   }
 
   @media (min-width: $vp-1440) {
     width: 840px;
     padding: 0 0 56px 0;
+
+    br {
+      display: none;
+    }
   }
 }
 
 .training__wrapper {
   .training__title {
-    padding: 0 0 21px 0;
+    padding: 0 0 36px 0;
+    letter-spacing: 0.35px;
   }
 }
 
-.training__wrapper--button {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: row;
-  gap: 4px;
-  width: 88px;
-  margin-left: auto;
-}
+// .training__wrapper--button {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   flex-direction: row;
+//   gap: 4px;
+//   width: 78px;
+//   margin-left: auto;
+// }
 
 .training__button {
   display: none;
