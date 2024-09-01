@@ -44,6 +44,10 @@
     width: 585px;
     gap: 0;
 
+    &::after {
+      display: none;
+    }
+
     &:first-child {
       padding-top: 0;
     }

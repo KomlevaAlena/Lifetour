@@ -31,14 +31,12 @@
     border-bottom: 1px solid $color-default-white;
     background-color: transparent;
     outline: none;
-    //color: rgba(45, 56, 63, 0.2);
   }
 
   &:focus {
     border: 1px solid $color-default-white;
     background-color: transparent;
     outline: none;
-    //color: $color-blue;
   }
 
   &:active {
@@ -46,7 +44,6 @@
     background-color: transparent;
     outline: none;
     opacity: 0.5;
-    //color: $color-active;
   }
 
   &:disabled {
@@ -59,6 +56,12 @@
   @media (min-width: $vp-1440) {
     margin: 0;
     padding: 0 0 0 32px;
+
+    picture {
+      display: block;
+      width: 142px;
+      height: 40px;
+    }
   }
 }
 
@@ -84,5 +87,6 @@
     font-size: 18px;
     line-height: 18px;
     letter-spacing: 0.15px;
+    padding: 5px 0 0 0;
   }
 }
