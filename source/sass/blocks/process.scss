@@ -14,7 +14,7 @@
     line-height: 18px;
     width: 678px;
     margin: 0 0 auto 0;
-    padding: 0 0 104px 0;
+    padding: 0 0 102px 0;
   }
 
   @media (min-width: $vp-1440) {
@@ -47,11 +47,12 @@
   }
 
   @media (min-width: $vp-768) {
-    width: 678px;
+    width: 639px;
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
     column-gap: 174px;
+    margin: 0 auto 0 0;
 
     &::after {
       display: none;
@@ -110,10 +111,6 @@
       height: 183px;
       background-color: $color-blue;
     }
-
-    .process__description {
-      width: 223px;
-    }
   }
 
   &:nth-of-type(2n) {
@@ -130,7 +127,12 @@
   }
 
   @media (min-width: $vp-768) {
-    padding: 0 0 0 35px;
+    padding: 0 0 0 34px;
+
+    .process__description {
+      width: 196px;
+      padding: 0 0 105px 0;
+    }
     &::before {
       display: none;
     }
@@ -148,21 +150,36 @@
     &:nth-of-type(2n) {
       grid-column: 1/2;
       grid-row: 2/3;
+
+      .process__description {
+        width: 196px;
+        padding: 0;
+      }
     }
 
     &:nth-of-type(3n) {
       grid-column: 2/3;
       grid-row: 2/3;
+
+      .process__description {
+        width: 200px;
+        padding: 0;
+      }
     }
 
     &:last-of-type {
       grid-column: 2/3;
       grid-row: 1/2;
+
+      .process__description {
+        width: 198px;
+        padding: 0;
+      }
    }
  }
 
  @media (min-width: $vp-1440) {
-  padding: 0 0 0 45px;
+  padding: 0;
 
   &::before {
     display: block;
@@ -183,7 +200,10 @@
   padding: 0 0 25px 9px;
 
   @media (min-width: $vp-768) {
+    padding: 0 0 25px 0;
     width: 197px;
+    line-height: 21px;
+    letter-spacing: 1.25px;
   }
 
   @media (min-width: $vp-1440) {
