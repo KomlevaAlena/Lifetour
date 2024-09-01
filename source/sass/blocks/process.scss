@@ -1,5 +1,9 @@
 .process {
   padding: 26px 0 0 0;
+
+  @media (min-width: $vp-1440) {
+    padding: 57px 0 0 0;
+  }
 }
 
 .process__title {
@@ -22,7 +26,7 @@
     line-height: 21px;
     width: 1200px;
     margin: 0 0 auto 0;
-    padding: 0 0 23px 0;
+    padding: 0 0 27px 0;
   }
 }
 
@@ -73,9 +77,9 @@
 
     &::after {
       display: block;
-      top: 87px;
-      left: 11px;
-      width: 1200px;
+      top: 80px;
+      left: 20px;
+      width: 1182px;
       height: 2px;
     }
   }
@@ -128,11 +132,6 @@
 
   @media (min-width: $vp-768) {
     padding: 0 0 0 34px;
-
-    .process__description {
-      width: 196px;
-      padding: 0 0 105px 0;
-    }
     &::before {
       display: none;
     }
@@ -164,6 +163,10 @@
       .process__description {
         width: 200px;
         padding: 0;
+
+        br {
+          display: none;
+        }
       }
     }
 
@@ -174,6 +177,10 @@
       .process__description {
         width: 198px;
         padding: 0;
+
+        br {
+          display: none;
+        }
       }
    }
  }
@@ -181,12 +188,69 @@
  @media (min-width: $vp-1440) {
   padding: 0;
 
+  svg {
+    position: absolute;
+    top: 2px;
+    left: 11px;
+  }
+
   &::before {
     display: block;
-    top: 80px;
-    left: 0;
+    top: 74px;
+    left: 19px;
     width: 15px;
     height: 15px;
+  }
+
+  &:nth-of-type(2n) {
+    &::before {
+      left: 14px;
+    }
+    svg {
+      top: 2px;
+      left: 6px;
+    }
+    .process__description {
+      width: 250px;
+      padding: 0 0 25px 39px;
+    }
+  }
+
+  &:nth-of-type(3n) {
+    &::before {
+      left: -13px;
+    }
+    svg {
+      top: 3px;
+      left: -2px;
+    }
+    .process__description {
+      width: 250px;
+      padding: 0 0 25px 31px;
+
+      br {
+        display: block;
+      }
+    }
+  }
+
+  &:last-of-type {
+    &::before {
+      left: -1px;
+    }
+    svg {
+      top: 3px;
+      left: -9px;
+    }
+
+    .process__description {
+      width: 250px;
+      padding: 0 0 25px 24px;
+
+      br {
+        display: block;
+      }
+    }
   }
  }
 }
@@ -199,15 +263,23 @@
   margin: 0 auto;
   padding: 0 0 25px 9px;
 
+  br {
+    display: none;
+  }
+
   @media (min-width: $vp-768) {
-    padding: 0 0 25px 0;
-    width: 197px;
+    padding: 0 0 105px 0;
+    width: 196px;
     line-height: 21px;
     letter-spacing: 1.25px;
   }
 
   @media (min-width: $vp-1440) {
-    width: 152px;
+    width: 250px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 0 25px 45px;
+    letter-spacing: normal;
   }
 }
 

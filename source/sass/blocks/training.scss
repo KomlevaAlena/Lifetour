@@ -11,6 +11,7 @@
 
   @media (min-width: $vp-1440) {
     width: 1200px;
+    padding: 54px 0 40px 0;
   }
 }
 
@@ -61,6 +62,10 @@
   @media (min-width: $vp-768) {
     width: 678px;
   }
+
+  @media (min-width: $vp-1440) {
+    width: 1200px;
+  }
 }
 
 
@@ -78,8 +83,11 @@
 
   @media (min-width: $vp-768) {
     top: 157px;
-    //margin-left: auto;
     right: 0;
+  }
+
+  @media (min-width: $vp-1440) {
+    top: 206px;
   }
 }
 
@@ -104,7 +112,7 @@
     font-size: 35px;
     line-height: 100px;
     width: 1200px;
-    padding: 0 0 37px 0;
+    padding: 0;
 
   }
 }
@@ -132,7 +140,7 @@
     font-size: 55px;
     line-height: 55px;
     width: 1200px;
-    top: 62px;
+    top: 15px;
     left: 0;
   }
 }
@@ -164,7 +172,7 @@
 
   @media (min-width: $vp-1440) {
     width: 840px;
-    padding: 0 0 56px 0;
+    padding: 0 0 61px 0;
 
     br {
       display: none;
@@ -174,20 +182,11 @@
 
 .training__wrapper {
   .training__title {
-    padding: 0 0 36px 0;
-    letter-spacing: 0.35px;
+    line-height: 35px;
+    padding: 0 0 16px 0;
+    letter-spacing: 0.55px;
   }
 }
-
-// .training__wrapper--button {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-between;
-//   flex-direction: row;
-//   gap: 4px;
-//   width: 78px;
-//   margin-left: auto;
-// }
 
 .training__button {
   display: none;

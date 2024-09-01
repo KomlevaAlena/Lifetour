@@ -20,12 +20,11 @@
     width: 213px;
     align-self: stretch;
     flex-shrink: 0;
-
-
   }
 
   @media (min-width: $vp-1440) {
     width: 285px;
+    min-height: 357px;
 
     picture {
       width: 255px;
@@ -105,5 +104,6 @@
 
   @media (min-width: $vp-1440) {
     width: 255px;
+    min-height: 64px;
   }
 }
