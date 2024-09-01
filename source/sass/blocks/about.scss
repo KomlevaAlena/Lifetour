@@ -26,13 +26,14 @@
 
   @media (min-width: $vp-1440) {
     width: 1440px;
+    justify-content: start;
     padding: 100px 0 100px 0;
     margin: 0 auto;
 
     picture {
       width: 660px;
-      padding-top: 100px;
-      margin: 0 auto 0 0;
+      padding-top: 0;
+      margin: 0;
     }
   }
 }
@@ -48,7 +49,9 @@
   }
 
   @media (min-width: $vp-1440) {
-    width: 660px;
+    //width: 660px;
+    width: max-content;
+    margin: 0;
   }
 }
 
@@ -58,6 +61,11 @@
   width: 290px;
   margin: 0 auto;
   padding: 0;
+
+  @media (min-width: $vp-1440) {
+    width: max-content;
+    margin: 0 auto 0 0;
+  }
 }
 
 .about__title {
@@ -77,9 +85,9 @@
 
   @media (min-width: $vp-1440) {
     font-size: 35px;
-    line-height: 100px;
-    width: 660px;
-    padding: 0 0 37px 0;
+    line-height: 35px;
+    width: max-content;
+    padding: 44px 0 58px 0;
   }
 }
 
@@ -105,8 +113,8 @@
   @media (min-width: $vp-1440) {
     font-size: 55px;
     line-height: 55px;
-    width: 660px;
-    top: 14px;
+    width: max-content;
+    top: 5px;
     left: 0;
   }
 
@@ -126,7 +134,8 @@
   }
 
   @media (min-width: $vp-1440) {
-    width: 660px;
+    //width: 660px;
+    width: max-content;
     padding: 0 0 57px 0;
   }
 }

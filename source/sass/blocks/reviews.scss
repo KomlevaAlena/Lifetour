@@ -10,9 +10,9 @@
 
   @media (min-width: $vp-1440) {
     width: 1440px;
+    padding: 143px 0 20px 0;
   }
 }
-
 
 .reviews__container {
   padding: 0;
@@ -40,7 +40,7 @@
 
   @media (min-width: $vp-1440) {
     width: 1320px;
-    margin: 0;
+    margin: 0 0 0 95px;
   }
 }
 
@@ -79,9 +79,9 @@
 
   @media (min-width: $vp-1440) {
     font-size: 35px;
-    line-height: 100px;
+    line-height: 35px;
     width: 1200px;
-    padding: 0 0 37px 0;
+    padding: 0 0 29px 0;
   }
 }
 
@@ -94,6 +94,10 @@
 
   @media (min-width: $vp-768) {
     width: 678px;
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 1200px;
   }
 }
 
@@ -120,8 +124,9 @@
     font-size: 55px;
     line-height: 55px;
     width: 1200px;
-    top: 62px;
-    left: 35px;
+    top: -37px;
+    left: 0;
+    letter-spacing: 1.05px;
   }
 }
 

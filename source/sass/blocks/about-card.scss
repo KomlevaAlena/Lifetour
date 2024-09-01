@@ -8,6 +8,24 @@
   &:last-of-type {
     padding: 0;
   }
+
+  @media (min-width: $vp-1440) {
+    padding: 0 0 29px 0;
+    width: max-content;
+
+    &:first-of-type {
+      .about-card__description {
+        width: 558px;
+      }
+    }
+
+    &:last-of-type {
+      .about-card__description {
+        width: 584px;
+        padding: 0;
+      }
+    }
+  }
 }
 .about-card__title {
   width: 290px;
@@ -23,8 +41,11 @@
   }
 
   @media (min-width: $vp-1440) {
-    width: 660px;
-    padding: 0 0 20px 0;
+    width: max-content;
+    margin: 0 auto 0 0;
+    padding: 0 0 17px 0;
+    font-size: 21px;
+    line-height: 21px;
   }
 }
 .about-card__description {
@@ -44,6 +65,8 @@
     width: 558px;
     padding: 0 0 25px 0;
     margin: 0 auto 0 0;
+    font-size: 14px;
+    line-height: 22px;
 
     &:last-of-type {
       padding: 0;
