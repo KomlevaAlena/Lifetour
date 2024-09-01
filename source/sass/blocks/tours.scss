@@ -6,7 +6,7 @@
 
   @media (min-width: $vp-768) {
     width: 768px;
-    padding: 58px 0 40px 0;
+    padding: 59px 0 40px 0;
   }
 
   @media (min-width: $vp-1440) {
@@ -106,7 +106,7 @@
     font-size: 40px;
     line-height: 40px;
     left: 0;
-    top: -14px;
+    top: -15px;
     letter-spacing: 0.65px;
   }
 
@@ -163,8 +163,7 @@
   flex-direction: row;
   gap: 4px;
   width: 78px;
-  //margin-left: auto;
-  top: 1px;
+  top: -1px;
   right: 0;
 }
 
