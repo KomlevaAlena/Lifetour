@@ -13,6 +13,9 @@ margin: 0 auto;
 }
 
   @media (min-width: $vp-768) {
+    margin: 0;
+    padding: 1px 0 40px 35px;
+
     &:first-of-type {
       width: 153px;
     }
@@ -23,6 +26,7 @@ margin: 0 auto;
 
     &:last-of-type {
       width: 288px;
+      padding: 1px 0 40px 36px;
     }
   }
 
@@ -74,6 +78,7 @@ margin: 0 auto;
   @media (min-width: $vp-768){
     font-size: 16px;
     line-height: 16px;
+    padding: 0 0 3px 0;
   }
 }
 
@@ -86,5 +91,6 @@ margin: 0 auto;
   @media (min-width: $vp-768){
     line-height: 22px;
     width: 288px;
+    //margin: 0;
   }
 }
