@@ -34,7 +34,11 @@
   position: absolute;
   width: 100%;
   margin: 0 auto;
-  top: 163px
+  top: 163px;
+
+  @media (min-width: $vp-768) {
+    top: 173px;
+  }
 }
 
 .feedback__title {
@@ -50,9 +54,10 @@
     font-size: 25px;
     line-height: 25px;
     margin: 0 auto;
+    padding: 15px 0 23px;
   }
 
-  @media (min-width: $vp-768) {
+  @media (min-width: $vp-1440) {
     width: 1360px;
     font-size: 35px;
     line-height: 35px;
@@ -70,7 +75,7 @@
 
   @media (min-width: $vp-768) {
     width: 360px;
-    padding: 0 0 25px 0;
+    padding: 0 0 23px 0;
     font-size: 16px;
     line-height: 24px;
 
@@ -79,7 +84,7 @@
     }
   }
 
-  @media (min-width: $vp-768) {
+  @media (min-width: $vp-1440) {
     width: 1360px;
   }
 }
