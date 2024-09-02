@@ -6,25 +6,21 @@
   padding: 0;
 
   @media (min-width: $vp-1440) {
-    //position: absolute;
-    //content: '';
     display: block;
     width: 600px;
     margin: 0;
     padding: 0;
     grid-column: 2/3;
     grid-row: 1/4;
-    //
   }
 }
 
 .map {
-  //position: relative;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   width: 320px;
   margin: 0 auto;
   padding: 0;
@@ -45,7 +41,7 @@
 
   @media (min-width: $vp-1440){
     width: 600px;
-    margin: 0;
+    margin: 26px 78px 0 0;
 
     picture {
       width: 600px;
@@ -83,6 +79,14 @@
   }
 
   @media (min-width: $vp-1440){
-    display: none;
+    width: 50px;
+    height: 50px;
+    bottom: 222px;
+    right: 190px;
+
+    svg {
+      width: 50px;
+      height: 50px;
+    }
   }
 }

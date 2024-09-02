@@ -12,11 +12,11 @@
   @media (min-width: $vp-1440) {
     width: 1440px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 126px 0 100px 0;
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
-    column-gap: 100px;
+    column-gap: 0;
   }
 }
 
@@ -36,9 +36,9 @@
   }
 
   @media (min-width: $vp-1440) {
-    width: 500px;
+    width: max-content;
     margin: 0;
-    padding: 50px 0 20px 120px;
+    padding: 29px 0 20px 120px;
     flex-direction: column;
     justify-content: left;
     grid-column: 1/2;
@@ -77,9 +77,11 @@
   }
 
   @media (min-width: $vp-1440) {
-    width: 500px;
+    width: max-content;
     margin: 0;
-    padding: 0 0 20px 120px;
+    font-size: 35px;
+    line-height: 35px;
+    padding: 0 0 23px 105px;
     grid-column: 1/2;
     grid-row: 1/2;
   }
@@ -107,10 +109,9 @@
   @media (min-width: $vp-1440) {
     font-size: 55px;
     line-height: 55px;
-    width: 500px;
-    top: 0;
-    left: 0;
-    padding: 0 0 20px 140px;
+    width: max-content;
+    top: -17px;
+    left: 105px;
   }
 }
 
