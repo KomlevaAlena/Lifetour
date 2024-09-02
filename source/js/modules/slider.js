@@ -65,7 +65,7 @@ export const sliderTours = new Swiper('.tours__wrapper', {
   },
 });
 
-export const sliderTraining = new Swiper('.training__wrapper--slider', {
+export const sliderTraining = new Swiper('.training__slider--wrapper', {
   direction: 'horizontal',
   loop: false,
   navigation: {

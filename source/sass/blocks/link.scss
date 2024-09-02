@@ -1,11 +1,11 @@
 .link {
- background-color: transparent;
- color: $color-main;
- border: 1px solid transparent;
+  background-color: transparent;
+  color: $color-main;
+  border: 1px solid transparent;
 
- svg {
-  color: currentColor;
- }
+  svg {
+    color: currentColor;
+  }
 
   &:hover {
     border: 1px solid transparent;
@@ -15,7 +15,7 @@
 
     svg {
       color: currentColor;
-     }
+    }
   }
 
   &:focus {
@@ -26,7 +26,7 @@
 
     svg {
       color: currentColor;
-     }
+    }
   }
 
   &:active {
@@ -37,7 +37,7 @@
 
     svg {
       color: currentColor;
-     }
+    }
   }
 
   &:disabled {
@@ -47,6 +47,6 @@
 
     svg {
       color: currentColor;
-     }
+    }
   }
 }

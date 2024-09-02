@@ -2,16 +2,16 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  padding: 36px 0 15px 0;
+  padding: 36px 0 15px;
 
   @media (min-width: $vp-768) {
     width: 768px;
-    padding: 57px 0 40px 0;
+    padding: 57px 0 40px;
   }
 
   @media (min-width: $vp-1440) {
     width: 1200px;
-    padding: 54px 0 40px 0;
+    padding: 54px 0 40px;
   }
 }
 
@@ -24,11 +24,17 @@
   width: 290px;
   margin: 0 auto;
 
+  .training__title {
+    line-height: 35px;
+    padding: 0 0 16px;
+    letter-spacing: 0.55px;
+  }
+
   @media (min-width: $vp-768) {
     width: 678px;
 
-    .training__title{
-      padding: 0 0 25px 0;
+    .training__title {
+      padding: 0 0 25px;
     }
   }
 
@@ -71,7 +77,7 @@
 
 .training__wrapper--button {
   position: absolute;
-  content: '';
+  content: "";
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -95,7 +101,7 @@
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 34px 0;
+  padding: 0 0 34px;
   font-size: 22px;
   line-height: 22px;
   letter-spacing: 0.25px;
@@ -104,8 +110,8 @@
     font-size: 25px;
     line-height: 25px;
     width: 678px;
-    margin: 0 0 auto 0;
-    padding: 0 0 8px 0;
+    margin: 0 0 auto;
+    padding: 0 0 8px;
   }
 
   @media (min-width: $vp-1440) {
@@ -113,14 +119,13 @@
     line-height: 100px;
     width: 1200px;
     padding: 0;
-
   }
 }
 
-.training__title--shadow {
+.training__shadow {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   width: max-content;
   font-size: 26px;
   line-height: 26px;
@@ -151,8 +156,9 @@
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 28px 0;
+  padding: 0 0 28px;
   letter-spacing: -0.55px;
+
   br {
     display: none;
   }
@@ -161,7 +167,7 @@
     font-size: 16px;
     line-height: 24px;
     width: 723px;
-    margin: 0 0 auto 0;
+    margin: 0 0 auto;
     padding: 26px 0 30px 43px;
     letter-spacing: 0.05px;
 
@@ -172,19 +178,11 @@
 
   @media (min-width: $vp-1440) {
     width: 840px;
-    padding: 0 0 61px 0;
+    padding: 0 0 61px;
 
     br {
       display: none;
     }
-  }
-}
-
-.training__wrapper {
-  .training__title {
-    line-height: 35px;
-    padding: 0 0 16px 0;
-    letter-spacing: 0.55px;
   }
 }
 

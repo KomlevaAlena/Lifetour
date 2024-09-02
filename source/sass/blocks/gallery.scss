@@ -2,16 +2,16 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  padding: 21px 0 0 0;
+  padding: 21px 0 0;
 
   @media (min-width: $vp-768) {
-    padding: 79px 0 0 0;
+    padding: 79px 0 0;
     width: 768px;
   }
 
   @media (min-width: $vp-1440) {
     width: 1440px;
-    padding: 288px 0 0 0;
+    padding: 288px 0 0;
   }
 }
 
@@ -83,7 +83,7 @@
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 26px 0;
+  padding: 0 0 26px;
   font-size: 22px;
   line-height: 22px;
   letter-spacing: 0.3px;
@@ -92,22 +92,22 @@
     font-size: 25px;
     line-height: 25px;
     margin: 0;
-    padding: 0 0 20px 0;
+    padding: 0 0 20px;
   }
 
   @media (min-width: $vp-1440) {
     width: 1200px;
     margin: 0 auto;
-    padding: 0 0 25px 0;
+    padding: 0 0 25px;
     font-size: 35px;
     line-height: 35px;
   }
 }
 
-.gallery__title--shadow {
+.gallery__shadow {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   width: 260px;
   font-size: 26px;
   line-height: 26px;
@@ -134,7 +134,7 @@
 
 .gallery__wrapper--button {
   position: absolute;
-  content: '';
+  content: "";
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -149,7 +149,7 @@
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 31px 0;
+  padding: 0 0 31px;
   font-size: 12px;
   line-height: 18px;
 

@@ -1,4 +1,4 @@
-.main-nav__list {
+.main-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -21,10 +21,10 @@
     overflow-x: hidden;
     position: absolute;
     display: block;
-    content: '';
+    content: "";
     top: 0;
     left: 0;
-    background-color: #0F1429;
+    background-color: #0f1429;
     opacity: 0.6;
     z-index: -1;
   }
@@ -58,7 +58,7 @@
   }
 }
 
-.main-nav__item {
+.main-item {
   display: block;
   width: 320px;
   margin: 0 auto;
@@ -74,7 +74,7 @@
   }
 }
 
-.main-nav__link {
+.main-link {
   display: block;
   width: max-content;
   color: $color-default-white;

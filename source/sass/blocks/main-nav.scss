@@ -18,14 +18,13 @@
     flex-wrap: wrap;
     width: 1200px;
     margin: 0 auto;
-    padding: 41px 0 44px 0;
+    padding: 41px 0 44px;
   }
 }
 
 .main-nav__toggle {
   position: relative;
   display: block;
-  border: none;
   mask: url("../img/menu.svg") no-repeat 100% 100%;
   mask-size: cover;
   background-repeat: no-repeat;
@@ -62,7 +61,7 @@
   }
 
   @media (min-width: $vp-768) {
-    margin: 8px 0 0 0;
+    margin: 8px 0 0;
   }
 
   @media (min-width: $vp-1440) {
@@ -73,7 +72,6 @@
 .main-nav__toggle--active {
   position: relative;
   display: block;
-  border: none;
   mask: url("../img/cross.svg") no-repeat 100% 100%;
   mask-size: cover;
   background-repeat: no-repeat;
@@ -114,7 +112,7 @@
   }
 }
 
-.main-nav__menu {
+.main-menu {
   display: none;
   width: 100%;
   background-color: $color-blue;
@@ -142,8 +140,7 @@
   }
 }
 
-.main-nav__menu--open {
+.main-menu--open {
   display: block;
 }
-
 

@@ -5,7 +5,7 @@
   justify-content: center;
   width: 320px;
   margin: 0 auto;
-  padding: 9px 0 0 0;
+  padding: 9px 0 0;
   gap: 16px;
 
   @media (min-width: $vp-1440) {
@@ -13,6 +13,7 @@
     gap: 13px;
   }
 }
+
 .social-list__link {
   position: relative;
   display: block;
@@ -23,7 +24,7 @@
 
   svg {
     position: absolute;
-    content: '';
+    content: "";
     display: block;
     width: 24px;
     height: 24px;
@@ -41,7 +42,7 @@
     left: 20%;
 
     @media (min-width: $vp-768) {
-      top: 33%
+      top: 33%;
     }
   }
 }
@@ -52,6 +53,7 @@
     height: 16px;
     top: 20%;
     left: 34%;
+
     @media (min-width: $vp-768) {
       top: 21%;
       left: 31%;
@@ -65,6 +67,7 @@
     height: 15px;
     top: 21%;
     left: 26%;
+
     @media (min-width: $vp-768) {
       top: 21%;
       left: 24%;

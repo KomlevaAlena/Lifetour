@@ -62,17 +62,17 @@
   display: block;
   width: 320px;
   margin: 0 auto;
-  padding: 23px 0 20px 0;
+  padding: 23px 0 20px;
   font-size: 12px;
   line-height: 12px;
   text-align: center;
 
   @media (min-width: $vp-768) {
-    padding: 34px 0 20px 0;
+    padding: 34px 0 20px;
   }
 
   @media (min-width: $vp-1440) {
-    padding: 23px 0 31px 0;
+    padding: 23px 0 31px;
   }
 }
 

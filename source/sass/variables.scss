@@ -13,18 +13,18 @@ $retina-dpi: 144dpi;
 $retina-dppx: 1.5dppx;
 
 // Gradient
-$gradient: linear-gradient(90deg, rgba(0,0,0,0.33) 0%, rgba(255,255,255,0) 100%);//на большом слайдере
-$gradient-card-tour: linear-gradient(0deg, rgba(0,0,0,0.33) 33%, rgba(0,0,0,0.16) 62%, rgba(255,255,255,0) 100%);
+$gradient: linear-gradient(90deg, rgba(0, 0, 0, 0.33) 0%, rgba(255, 255, 255, 0) 100%);
+$gradient-card-tour: linear-gradient(0deg, rgba(0, 0, 0, 0.33) 33%, rgba(0, 0, 0, 0.16) 62%, rgba(255, 255, 255, 0) 100%);
 
 // Colors
 $color-default-black: #000000;
 $color-default-white: #ffffff;
 $color-transparent: rgba(255, 255, 255, 0);
 $color-main: #2d383f;
-$color-blue: #0266C1;
-$color-active: #1C3374;
+$color-blue: #0266c1;
+$color-active: #1c3374;
 $color-disabled: #999999;
-$color-error: #FF121F;
+$color-error: #ff121f;
 $color-input-text: rgba(45, 56, 63, 0.7);
 
 

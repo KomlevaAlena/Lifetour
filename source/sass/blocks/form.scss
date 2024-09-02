@@ -27,13 +27,20 @@
   }
 }
 
+input {
+  &::placeholder {
+    color: $color-input-text;
+    outline: none;
+  }
+}
+
 .form__group {
   input {
     width: 258px;
     padding: 16px 14px 14px;
     border: 1px solid rgba(45, 56, 63, 0.1);
     border-radius: 3px;
-    margin: 0 0 8px 0;
+    margin: 0 0 8px;
     outline: none;
     color: $color-input-text;
 
@@ -65,15 +72,10 @@
       outline: none;
     }
 
-    &::placeholder {
-      color: $color-input-text;
-      outline: none;
-    }
-
     @media (min-width: $vp-768) {
       width: 360px;
       padding: 20px 29px 17px;
-      margin: 0 0 10px 0;
+      margin: 0 0 10px;
     }
 
     @media (min-width: $vp-1440) {
@@ -84,12 +86,12 @@
 
   &:last-of-type {
     input {
-      margin: 0 0 8px 0;
+      margin: 0 0 8px;
       padding: 16px 14px 13px;
 
       @media (min-width: $vp-768) {
         padding: 20px 29px 17px;
-        margin: 0 0 10px 0;
+        margin: 0 0 10px;
       }
 
       @media (min-width: $vp-1440) {
@@ -116,7 +118,7 @@
 
   @media (min-width: $vp-1440) {
     width: 180px;
-    padding: 22px 34px 18px 34px;
+    padding: 22px 34px 18px;
     margin: 0;
   }
 }

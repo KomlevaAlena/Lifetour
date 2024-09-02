@@ -2,16 +2,16 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  padding: 39px 0 20px 0;
+  padding: 39px 0 20px;
 
   @media (min-width: $vp-768) {
     width: 768px;
-    padding: 62px 0 20px 0;
+    padding: 62px 0 20px;
   }
 
   @media (min-width: $vp-1440) {
     width: 1440px;
-    padding: 190px 0 20px 0
+    padding: 190px 0 20px;
   }
 }
 
@@ -66,7 +66,7 @@
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 37px 0;
+  padding: 0 0 37px;
   font-size: 22px;
   line-height: 22px;
   letter-spacing: 0.3px;
@@ -76,21 +76,21 @@
     font-size: 25px;
     line-height: 25px;
     text-align: center;
-    padding: 0 0 60px 0;
+    padding: 0 0 60px;
   }
 
   @media (min-width: $vp-1440) {
     font-size: 35px;
     line-height: 35px;
     width: 1200px;
-    padding: 0 0 50px 0;
+    padding: 0 0 50px;
   }
 }
 
-.advantages__title--shadow {
+.advantages__shadow {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   width: max-content;
   font-size: 26px;
   line-height: 26px;
@@ -117,7 +117,7 @@
 
 .advantages__wrapper--button {
   position: absolute;
-  content: '';
+  content: "";
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

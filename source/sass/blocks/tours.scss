@@ -2,16 +2,16 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  padding: 40px 0 20px 0;
+  padding: 40px 0 20px;
 
   @media (min-width: $vp-768) {
     width: 768px;
-    padding: 59px 0 40px 0;
+    padding: 59px 0 40px;
   }
 
   @media (min-width: $vp-1440) {
     width: 1200px;
-    padding: 90px 0 75px 0;
+    padding: 90px 0 75px;
   }
 }
 
@@ -39,7 +39,7 @@
 
   @media (min-width: $vp-768) {
     width: 678px;
-    padding: 11px 0 0 0;
+    padding: 11px 0 0;
   }
 
   @media (min-width: $vp-1440) {
@@ -74,7 +74,7 @@
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 39px 0;
+  padding: 0 0 39px;
   font-size: 22px;
   line-height: 22px;
   letter-spacing: 0.3px;
@@ -83,7 +83,7 @@
     font-size: 25px;
     line-height: 25px;
     margin: 0;
-    padding: 0 0 25px 0;
+    padding: 0 0 25px;
     letter-spacing: 0.4px;
   }
 
@@ -91,15 +91,15 @@
     font-size: 35px;
     line-height: 100px;
     width: 1200px;
-    padding: 0 0 16px 0;
+    padding: 0 0 16px;
     letter-spacing: 0.5px;
   }
 }
 
-.tours__title--shadow {
+.tours__shadow {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   width: max-content;
   font-size: 26px;
   line-height: 26px;
@@ -126,7 +126,7 @@
   }
 }
 
-.tours__button--all {
+.tours-button__all {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -167,7 +167,7 @@
 
 .tours__wrapper--button {
   position: absolute;
-  content: '';
+  content: "";
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

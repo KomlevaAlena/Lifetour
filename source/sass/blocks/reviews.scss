@@ -2,15 +2,15 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  padding: 36px 0 20px 0;
+  padding: 36px 0 20px;
 
   @media (min-width: $vp-768) {
-    padding: 39px 0 20px 0;
+    padding: 39px 0 20px;
   }
 
   @media (min-width: $vp-1440) {
     width: 1440px;
-    padding: 143px 0 20px 0;
+    padding: 143px 0 20px;
   }
 }
 
@@ -21,7 +21,7 @@
 .reviews__wrapper {
   width: 290px;
   margin: 0 auto;
-  box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2);
 
   @media (min-width: $vp-768) {
     width: 768px;
@@ -36,7 +36,7 @@
 }
 
 .reviews__wrapper.swiper {
-  padding: 10px 0 10px;
+  padding: 10px 0;
 
   @media (min-width: $vp-1440) {
     width: 1320px;
@@ -64,7 +64,7 @@
   display: block;
   width: 290px;
   margin: 0 auto;
-  padding: 0 0 32px 0;
+  padding: 0 0 32px;
   font-size: 22px;
   line-height: 22px;
   letter-spacing: 0.3px;
@@ -74,14 +74,14 @@
     line-height: 25px;
     margin: 0;
     letter-spacing: 0.45px;
-    padding: 0 0 26px 0;
+    padding: 0 0 26px;
   }
 
   @media (min-width: $vp-1440) {
     font-size: 35px;
     line-height: 35px;
     width: 1200px;
-    padding: 0 0 29px 0;
+    padding: 0 0 29px;
   }
 }
 
@@ -101,10 +101,10 @@
   }
 }
 
-.reviews__title--shadow {
+.reviews__shadow {
   display: block;
   position: absolute;
-  content: '';
+  content: "";
   width: max-content;
   font-size: 26px;
   line-height: 26px;
@@ -132,7 +132,7 @@
 
 .reviews__wrapper--button {
   position: absolute;
-  content: '';
+  content: "";
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

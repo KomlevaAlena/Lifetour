@@ -1,7 +1,7 @@
 .button {
   display: block;
   width: 100%;
-  padding: 20px 20px;
+  padding: 20px;
   font-family: $font-montserrat;
   font-size: 14px;
   font-weight: 600;
@@ -12,10 +12,10 @@
   cursor: pointer;
   user-select: none;
 
-  &:hover{
+  &:hover {
     color: rgba(25, 51, 116, 100%);
     background-color: $color-default-white;
-    outline:none;
+    outline: none;
     border: 1px solid rgba(25, 51, 116, 100%);
   }
 
@@ -44,17 +44,16 @@
 }
 
 .slider__button--prev {
-  position: relative;
   width: 37px;
   height: 35px;
-  padding: 17px 17px;
+  padding: 17px;
   position: relative;
   outline: none;
   border: 1px solid transparent;
 
   svg {
     position: absolute;
-    content: '';
+    content: "";
     width: 15px;
     height: 9px;
     top: 13px;
@@ -64,17 +63,16 @@
 }
 
 .slider__button--next {
-  position: relative;
   width: 37px;
   height: 35px;
-  padding: 17px 17px;
+  padding: 17px;
   position: relative;
   outline: none;
   border: 1px solid transparent;
 
   svg {
     position: absolute;
-    content: '';
+    content: "";
     width: 15px;
     height: 9px;
     top: 13px;

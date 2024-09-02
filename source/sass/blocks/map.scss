@@ -31,7 +31,7 @@
     height: auto;
   }
 
-  @media (min-width: $vp-768){
+  @media (min-width: $vp-768) {
     width: 768px;
 
     picture {
@@ -39,7 +39,7 @@
     }
   }
 
-  @media (min-width: $vp-1440){
+  @media (min-width: $vp-1440) {
     width: 600px;
     margin: 26px 78px 0 0;
 
@@ -49,13 +49,13 @@
   }
 }
 
-.contacts__map--icon {
+.contacts__map-icon {
   position: absolute;
-  content: '';
+  content: "";
   display: block;
   width: 28px;
   height: 28px;
-  bottom:145px;
+  bottom: 145px;
   right: 94px;
   z-index: 1;
   color: $color-blue;
@@ -66,10 +66,10 @@
     fill: currentColor;
   }
 
-  @media (min-width: $vp-768){
+  @media (min-width: $vp-768) {
     width: 42px;
     height: 42px;
-    bottom:119px;
+    bottom: 119px;
     right: 341px;
 
     svg {
@@ -78,7 +78,7 @@
     }
   }
 
-  @media (min-width: $vp-1440){
+  @media (min-width: $vp-1440) {
     width: 50px;
     height: 50px;
     bottom: 222px;
