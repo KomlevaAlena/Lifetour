@@ -33,6 +33,7 @@
   }
 
   @media (min-width: $vp-1440) {
+    padding: 39px 7px 39px;
     width: 380px;
     margin: 0;
   }
@@ -70,6 +71,7 @@
   @media (min-width: $vp-1440) {
     width: 54px;
     height: 54px;
+    margin: 0 auto;
 
     svg {
       top: 25%;
@@ -94,6 +96,7 @@
   }
 
   @media (min-width: $vp-1440) {
+    padding: 29px 0 16px 0;
     font-size: 18px;
     line-height: 18px;
   }
@@ -111,5 +114,9 @@
     font-size: 14px;
     line-height: 22px;
     width: 284px;
+  }
+
+  @media (min-width: $vp-1440) {
+    width: 340px;
   }
 }
