@@ -7,6 +7,11 @@
   margin: 0 auto;
   padding: 9px 0 0 0;
   gap: 16px;
+
+  @media (min-width: $vp-1440) {
+    width: max-content;
+    gap: 13px;
+  }
 }
 .social-list__link {
   position: relative;

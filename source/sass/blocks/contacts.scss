@@ -12,7 +12,7 @@
   @media (min-width: $vp-1440) {
     width: 1440px;
     margin: 0 auto;
-    padding: 126px 0 100px 0;
+    padding: 126px 0 34px 0;
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(3, auto);
@@ -81,7 +81,7 @@
     margin: 0;
     font-size: 35px;
     line-height: 35px;
-    padding: 0 0 23px 105px;
+    padding: 0 0 23px 100px;
     grid-column: 1/2;
     grid-row: 1/2;
   }
@@ -111,7 +111,7 @@
     line-height: 55px;
     width: max-content;
     top: -17px;
-    left: 105px;
+    left: 100px;
   }
 }
 
