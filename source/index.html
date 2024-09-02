@@ -21,13 +21,10 @@
       <header class="main-header" data-test="header">
         <div class="container">
           <nav class="main-nav">
-            <button class="main-nav__toggle button">
+            <button class="main-nav__toggle button" type="button">
               <span class="visually-hidden">Развернуть меню</span>
-              <div class="main-nav__toggle-icon">
-                <!--svg role="img"  viewBox="0 0 22 22" width="22" height="22" focusable="false">
-                <use href="/__spritemap#sprite-menu"></use>
-                </!--svg-->
-              </div>
+              <span class="main-nav__toggle-icon">
+              </span>
             </button>
             <div class="main-nav__contact">
               <a class="main-nav__logo-link link" href="index.html">
@@ -69,12 +66,12 @@
         <div class="hero__container container">
           <h1 class="visually-hidden">Lifetour: Организация походов в горы.</h1>
           <div class="hero__wrapper swiper">
-            <ol class="hero-list slider swiper-wrapper" pagination="true">
+            <ol class="hero-list slider swiper-wrapper">
               <li class="hero-list__item hero-card swiper-slide">
                 <div class="hero-card__wrapper">
                   <h2 class="hero-card__title title">Захватывающие вершины Кавказа</h2>
                   <p class="hero-card__description">В сопровождении опытных гидов вы пройдёте через потрясающие ландшафты и совершите восход на вершину горы Чегет.</p>
-                  <a class="hero-card__button button">Смотреть тур</a>
+                  <a class="hero-card__button button" href="#">Смотреть тур</a>
                   <ul class="hero-card__list">
                     <li class="hero-card__item button">
                       <svg role="img"  viewBox="0 0 12 12" width="12" height="12" focusable="false">
@@ -100,7 +97,7 @@
                 <div class="hero-card__wrapper">
                   <h2 class="hero-card__title title">Невероятная <br>природа Камчатки</h2>
                   <p class="hero-card__description">Незабываемое приключение, во время которого вы отправитесь в путешествие по одному из самых нетронутых уголков дикой<br> природы в мире.</p>
-                  <a class="hero-card__button button">Смотреть тур</a>
+                  <a class="hero-card__button button" href="#">Смотреть тур</a>
                   <picture>
                     <source media="(min-width: 1440px)" srcset="img/photo-cards-desk-1х.webp 1x, img/photo-cards-desk-2х.webp 2x" width="410" height="459" type="image/webp">
                     <source media="(min-width: 768px)" srcset="img/photo-cards-1x.webp 1x, img/photo-cards-2х.webp 2x" width="442" height="365" type="image/webp">
@@ -131,7 +128,7 @@
                 <div class="hero-card__wrapper">
                   <h2 class="hero-card__title title">Магические пейзажи<br> Алтайского Края</h2>
                   <p class="hero-card__description">Алтайский трекинг-тур – это захватывающее приключение с посещением магических и захватывающих дух ландшафтов Алтайских гор.</p>
-                  <a class="hero-card__button button">Смотреть тур</a>
+                  <a class="hero-card__button button" href="#">Смотреть тур</a>
                   <ul class="hero-card__list">
                     <li class="hero-card__item button">
                       <svg role="img"  viewBox="0 0 12 12" width="12" height="12" focusable="false">
@@ -354,7 +351,7 @@
                 </picture>
               </li>
             </ol>
-            <a class="tours__button--all button link">
+            <a class="tours__button--all button link" href="#">
               <span>Показать все туры</span>
               <svg role="img"  viewBox="0 0 9 14" width="9" height="14" focusable="false">
                 <use href="/__spritemap#sprite-tours-right-arrow"></use>
@@ -414,7 +411,7 @@
                       <h4 class="training-card__title title">Светлана Афиногенова</h4>
                       <a class="training-card__link" href="#">
                         <span class="visually-hidden">Профиль в Контакте</span>
-                        <svg role="img"  viewBox="0 0 14 8" focusable="false">
+                        <svg role="img"  viewBox="0 0 14 8" width="14" height="8" focusable="false">
                           <use href="/__spritemap#sprite-vk-aducation"></use>
                         </svg>
                       </a>
@@ -783,11 +780,11 @@
             <p class="feedback__description">Заполните форму и наш оператор<br> свяжется<br> с вами для консультации.</p>
             <div class="feedback__form form">
               <form action="https://echo.htmlacademy.ru/" method="post">
-                <div class="form__group" data-validate-type="phone" data-on-input-validate="" data-message-base="" data-message-extra="" data-message-success="" data-required data-phone-length="18">
+                <div class="form__group" data-validate-type="phone" data-on-input-validate  data-required data-phone-length="18">
                   <label class="visually-hidden" for="phone">Ваше имя</label>
                   <input type="text" name="user-phone" id="phone" placeholder="Телефон">
                 </div>
-                <div class="form__group" data-validate-type="email" data-on-input-validate="" data-message-base="" data-message-extra="" data-required>
+                <div class="form__group" data-validate-type="email" data-on-input-validate data-required>
                   <label class="visually-hidden" for="email">Email</label>
                   <input type="email" name="user-email" id="email" placeholder="Email">
                 </div>
@@ -850,9 +847,6 @@
           <div class="footer__list--wrapper">
             <a class="footer__logo" href="index.html" aria-current="page">
             <span class="visually-hidden">Lifetour</span>
-            <!--svg role="img"  viewBox="0 0 142 42" width="142" height="42" focusable="false">
-              <use href="/__spritemap#sprite-logotype-text"></use>
-            </!--svg-->
             <picture>
               <source media="(min-width: 1440px)" srcset="img/logotype-footer-2x.webp 1x, img/logotype-footer-2x.webp 2x" width="142" height="42" type="image/webp">
               <source media="(min-width: 768px)" srcset="img/logotype-footer-1x.webp 1x, img/logotype-footer-2x.webp 2x" width="142" height="42" type="image/webp">
@@ -913,24 +907,7 @@
         </div>
       </footer>
     </div>
-    <!-- пример использования спрайта -->
-    <!--img src="/__spritemap#sprite-logo-view" alt="Это спрайт">
-    <svg-->
-      <!--use href="/__spritemap#sprite-user"></!--use>
-    </svg-->
-    <!-- примеры требуемых атрибутов data-test="*" -->
-    <!--div data-test="header">header</!--div>
-    <div data-test="hero">hero</div>
-    <div data-test="tours">tours</div>
-    <div data-test="training">training</div>
-    <div data-test="about">about</div>
-    <div data-test="reviews">reviews</div>
-    <div data-test="adv">adv</div>
-    <div data-test="gallery">gallery</div>
-    <div data-test="form">form</div>
-    <div-- data-test="footer">footer</div-->
     <script type="module" src="js/vendor.js"></script>
     <script type="module" src="js/main.js"></script>
   </body>
-
 </html>
